@@ -1,0 +1,703 @@
+{
+  "protocol": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "seed": 314,
+    "original_edit_strength": 0.25,
+    "strengths": [
+      0.0,
+      0.125,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "selection": "Maximize target development balanced accuracy; break ties toward the smallest nonnegative strength. Never select on test results.",
+    "calibration_grid": {
+      "min": -20,
+      "max": 20,
+      "step": 0.01
+    },
+    "random_seeds": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219
+    ],
+    "random_control_strength": "Selected strength, including zero if development selects no edit.",
+    "bootstrap_samples": 10000,
+    "bootstrap": "Paired noun clusters, stratified by gender, retaining both frames; percentile interval is descriptive, not an equivalence test.",
+    "competence_threshold": 0.75,
+    "competence_rule": "Baseline source and target accuracy must each be at least 75% in both genders on held-out nouns. This is a diagnostic operational threshold, not proof of general competence.",
+    "direct_tolerance": 0.0003,
+    "regression_min_mean_logp_change": -0.05,
+    "support_rule": "Selected edit must improve held-out accuracy, have paired gain CI lower bound above zero, beat calibration and the random-control 95th percentile, pass the regression threshold, and pass the competence gate. A failed rule leaves the broader transfer hypothesis unresolved.",
+    "status": "Follow-up designed after inspecting the original experiment. A local pre-evaluation fingerprint is not independently registered. Synthetic Swedish contexts have not received independent speaker validation."
+  },
+  "selection": {
+    "selected_strength": 2.0,
+    "development_candidates": [
+      {
+        "strength": 0.0,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.125,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.25,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.5,
+        "accuracy": 0.53125
+      },
+      {
+        "strength": 1.0,
+        "accuracy": 0.5625
+      },
+      {
+        "strength": 2.0,
+        "accuracy": 0.59375
+      }
+    ],
+    "calibration_bias": -1.3799999999970893,
+    "calibration_development_accuracy": 0.75,
+    "calibration_at_grid_boundary": false
+  },
+  "competence": {
+    "source": {
+      "accuracy": 0.96875,
+      "count": 64,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.96875
+    },
+    "target": {
+      "accuracy": 0.53125,
+      "count": 64,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0625
+    }
+  },
+  "support_checks": {
+    "competence_gate": false,
+    "positive_gain": true,
+    "positive_gain_interval": false,
+    "beats_calibration": false,
+    "beats_random95": false,
+    "regression_threshold": false
+  },
+  "supports_transfer": false,
+  "random_gain_percentile95": 0.01640625000000001,
+  "conditions": {
+    "baseline": {
+      "accuracy": 0.53125,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0625,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5625
+      }
+    },
+    "fixed_edit": {
+      "accuracy": 0.515625,
+      "gain": -0.015625,
+      "gain_ci95": [
+        -0.046875,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 1,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.03125,
+      "regression_mean_logp_change": -0.10344086587429047,
+      "regression_groups": {
+        "min": 0.017413388937711716,
+        "mitt": -0.22429513931274414
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.53125
+      }
+    },
+    "reversed_fixed": {
+      "accuracy": 0.53125,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0625,
+      "regression_mean_logp_change": 0.1031062975525856,
+      "regression_groups": {
+        "min": -0.01801898516714573,
+        "mitt": 0.2242315709590912
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5625
+      }
+    },
+    "selected_edit": {
+      "accuracy": 0.546875,
+      "gain": 0.015625,
+      "gain_ci95": [
+        -0.03125,
+        0.0625
+      ],
+      "fixed": 2,
+      "broken": 1,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.09375,
+      "regression_mean_logp_change": -0.8733483552932739,
+      "regression_groups": {
+        "min": 0.1184188574552536,
+        "mitt": -1.8651155233383179
+      },
+      "frame_accuracy": {
+        "0": 0.53125,
+        "1": 0.5625
+      }
+    },
+    "reversed_selected": {
+      "accuracy": 0.46875,
+      "gain": -0.0625,
+      "gain_ci95": [
+        -0.171875,
+        0.046875
+      ],
+      "fixed": 7,
+      "broken": 11,
+      "common_accuracy": 0.6875,
+      "neuter_accuracy": 0.25,
+      "regression_mean_logp_change": 0.8076003789901733,
+      "regression_groups": {
+        "min": -0.15867029130458832,
+        "mitt": 1.7738710641860962
+      },
+      "frame_accuracy": {
+        "0": 0.53125,
+        "1": 0.40625
+      }
+    },
+    "calibration": {
+      "accuracy": 0.59375,
+      "gain": 0.0625,
+      "gain_ci95": [
+        -0.046875,
+        0.171875
+      ],
+      "fixed": 10,
+      "broken": 6,
+      "common_accuracy": 0.8125,
+      "neuter_accuracy": 0.375,
+      "regression_mean_logp_change": 0.007120394613593817,
+      "regression_groups": {
+        "min": -0.6753509640693665,
+        "mitt": 0.6895917654037476
+      },
+      "frame_accuracy": {
+        "0": 0.59375,
+        "1": 0.59375
+      }
+    },
+    "random_200": {
+      "accuracy": 0.5625,
+      "gain": 0.03125,
+      "gain_ci95": [
+        -0.046875,
+        0.109375
+      ],
+      "fixed": 15,
+      "broken": 13,
+      "common_accuracy": 0.59375,
+      "neuter_accuracy": 0.53125,
+      "regression_mean_logp_change": -1.055053949356079,
+      "regression_groups": {
+        "min": -3.5444118976593018,
+        "mitt": 1.4343044757843018
+      },
+      "frame_accuracy": {
+        "0": 0.5625,
+        "1": 0.5625
+      }
+    },
+    "random_201": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -1.1461197137832642,
+      "regression_groups": {
+        "min": 4.666504383087158,
+        "mitt": -6.958743095397949
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_202": {
+      "accuracy": 0.484375,
+      "gain": -0.046875,
+      "gain_ci95": [
+        -0.140625,
+        0.046875
+      ],
+      "fixed": 26,
+      "broken": 29,
+      "common_accuracy": 0.09375,
+      "neuter_accuracy": 0.875,
+      "regression_mean_logp_change": 0.7610375881195068,
+      "regression_groups": {
+        "min": 0.4480242133140564,
+        "mitt": 1.074050784111023
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.46875
+      }
+    },
+    "random_203": {
+      "accuracy": 0.453125,
+      "gain": -0.078125,
+      "gain_ci95": [
+        -0.15625,
+        0.0
+      ],
+      "fixed": 3,
+      "broken": 8,
+      "common_accuracy": 0.78125,
+      "neuter_accuracy": 0.125,
+      "regression_mean_logp_change": 0.4614725112915039,
+      "regression_groups": {
+        "min": 1.6942272186279297,
+        "mitt": -0.7712821960449219
+      },
+      "frame_accuracy": {
+        "0": 0.40625,
+        "1": 0.5
+      }
+    },
+    "random_204": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -1.6347277164459229,
+      "regression_groups": {
+        "min": -0.2792850434780121,
+        "mitt": -2.9901702404022217
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_205": {
+      "accuracy": 0.390625,
+      "gain": -0.140625,
+      "gain_ci95": [
+        -0.21875,
+        -0.0625
+      ],
+      "fixed": 2,
+      "broken": 11,
+      "common_accuracy": 0.71875,
+      "neuter_accuracy": 0.0625,
+      "regression_mean_logp_change": -0.859545111656189,
+      "regression_groups": {
+        "min": -1.7434486150741577,
+        "mitt": 0.024358224123716354
+      },
+      "frame_accuracy": {
+        "0": 0.28125,
+        "1": 0.5
+      }
+    },
+    "random_206": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 30,
+      "broken": 32,
+      "common_accuracy": 0.0,
+      "neuter_accuracy": 1.0,
+      "regression_mean_logp_change": -1.2271627187728882,
+      "regression_groups": {
+        "min": -5.929713249206543,
+        "mitt": 3.4753880500793457
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_207": {
+      "accuracy": 0.484375,
+      "gain": -0.046875,
+      "gain_ci95": [
+        -0.109375,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.4105148911476135,
+      "regression_groups": {
+        "min": 1.5538766384124756,
+        "mitt": -0.7328470349311829
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.46875
+      }
+    },
+    "random_208": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 30,
+      "broken": 32,
+      "common_accuracy": 0.0,
+      "neuter_accuracy": 1.0,
+      "regression_mean_logp_change": -0.6773676872253418,
+      "regression_groups": {
+        "min": -5.772350788116455,
+        "mitt": 4.417614936828613
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_209": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -0.8549569845199585,
+      "regression_groups": {
+        "min": 4.173905849456787,
+        "mitt": -5.883820533752441
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_210": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -3.892425060272217,
+      "regression_groups": {
+        "min": 5.238457679748535,
+        "mitt": -13.023305892944336
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_211": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -2.750807523727417,
+      "regression_groups": {
+        "min": 2.918585777282715,
+        "mitt": -8.420202255249023
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_212": {
+      "accuracy": 0.484375,
+      "gain": -0.046875,
+      "gain_ci95": [
+        -0.109375,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -1.2789621353149414,
+      "regression_groups": {
+        "min": 1.3362205028533936,
+        "mitt": -3.8941447734832764
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_213": {
+      "accuracy": 0.53125,
+      "gain": 0.0,
+      "gain_ci95": [
+        -0.046875,
+        0.046875
+      ],
+      "fixed": 1,
+      "broken": 1,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0625,
+      "regression_mean_logp_change": -0.7961486577987671,
+      "regression_groups": {
+        "min": -0.5428271293640137,
+        "mitt": -1.049470067024231
+      },
+      "frame_accuracy": {
+        "0": 0.53125,
+        "1": 0.53125
+      }
+    },
+    "random_214": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -0.4969143867492676,
+      "regression_groups": {
+        "min": 4.085958480834961,
+        "mitt": -5.079787254333496
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_215": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -3.3476455211639404,
+      "regression_groups": {
+        "min": 1.3596956729888916,
+        "mitt": -8.054986953735352
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_216": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.3146212697029114,
+      "regression_groups": {
+        "min": 0.19965116679668427,
+        "mitt": 0.4295913577079773
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_217": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -2.244734287261963,
+      "regression_groups": {
+        "min": 4.821761608123779,
+        "mitt": -9.311230659484863
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "random_218": {
+      "accuracy": 0.546875,
+      "gain": 0.015625,
+      "gain_ci95": [
+        -0.078125,
+        0.109375
+      ],
+      "fixed": 26,
+      "broken": 25,
+      "common_accuracy": 0.25,
+      "neuter_accuracy": 0.84375,
+      "regression_mean_logp_change": 0.6728638410568237,
+      "regression_groups": {
+        "min": -1.9130973815917969,
+        "mitt": 3.258824586868286
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.625
+      }
+    },
+    "random_219": {
+      "accuracy": 0.5,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.078125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -1.181786298751831,
+      "regression_groups": {
+        "min": -0.5433462858200073,
+        "mitt": -1.8202263116836548
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    }
+  },
+  "checks": {
+    "direct_max_errors": {
+      "-2.0": 5.4836273193359375e-05,
+      "0.25": 5.4836273193359375e-05,
+      "2.0": 5.4836273193359375e-05
+    },
+    "restored_max_error": 5.4836273193359375e-05,
+    "direct_prompt_count": 18,
+    "input_embeddings_unchanged": true,
+    "both_candidate_boundaries_verified": true
+  },
+  "environment": {
+    "python": "3.13.9",
+    "torch": "2.11.0+cu126",
+    "transformers": "5.17.0",
+    "numpy": "2.4.2",
+    "device": "cpu",
+    "gpu": null,
+    "dtype": "float32",
+    "attention": "eager"
+  },
+  "direction_probe": {
+    "source": {
+      "auc": 0.994140625,
+      "common_mean": 1.6890568733215332,
+      "neuter_mean": -1.2050048112869263,
+      "zero_threshold_accuracy": 0.96875,
+      "fitted_threshold": 0.0,
+      "fitted_threshold_accuracy": 0.96875
+    },
+    "target": {
+      "auc": 0.6884765625,
+      "common_mean": 0.45067763328552246,
+      "neuter_mean": 0.16853392124176025,
+      "zero_threshold_accuracy": 0.5625,
+      "fitted_threshold": 0.4071989953517914,
+      "fitted_threshold_accuracy": 0.65625
+    }
+  },
+  "fingerprints": {
+    "checkpoint_check.py": "8af8f2c00a4e4fd992529f2194501dea0e8e23976fe408b2c84976c77601dfc2",
+    "followup.py": "daf03cc7b6df3bcbc378efed965cc35e701783917599b84a5a05cb28ccda4cd1",
+    "data/followup.json": "4e2a10ac9f3db4c16e16ed32db58e09d7b4a4e7a2720a2e4c0751f76b0320ed0",
+    "data/benchmark.json": "555eff8c268434188dd141bcebaca952e5720115fded5bc8fce6ad8533bf4a1f",
+    "followup_protocol.json": "d39f7224ec22b649248a1e4d296dfdd62ea61cb6a2dfdf14634d4f1ceda05bdd"
+  }
+}

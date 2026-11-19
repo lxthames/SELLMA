@@ -1,0 +1,16 @@
+{
+  "verification": "Second complete local inference run, same hardware and software; not external replication.",
+  "compared_summary_fields": [
+    "conditions",
+    "selection",
+    "competence",
+    "support_checks",
+    "checks"
+  ],
+  "all_compared_fields_identical": true,
+  "examples_byte_identical": true,
+  "examples_sha256": "59935183f3ed50d46a70919920ba5a24a316b0cf9dd2d7f873cc372d23a0a093",
+  "original_artifacts_unchanged": true,
+  "first_elapsed_seconds": 5.329296700074337,
+  "second_elapsed_seconds": 5.249188099987805
+}

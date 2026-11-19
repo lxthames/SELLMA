@@ -1,0 +1,51 @@
+{
+  "negated": {
+    "baseline": {
+      "correct": 16,
+      "opposite": 16,
+      "unclassified": 0
+    },
+    "edited": {
+      "correct": 16,
+      "opposite": 16,
+      "unclassified": 0
+    },
+    "new_opposite": 0,
+    "resolved_opposite": 0,
+    "changed_text": 0
+  },
+  "affirmative": {
+    "baseline": {
+      "correct": 16,
+      "opposite": 16,
+      "unclassified": 0
+    },
+    "edited": {
+      "correct": 16,
+      "opposite": 16,
+      "unclassified": 0
+    },
+    "new_opposite": 0,
+    "resolved_opposite": 0,
+    "changed_text": 0
+  },
+  "model": "Qwen/Qwen2.5-0.5B",
+  "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+  "strength": 0.25,
+  "candidate_initial_ids": {
+    "den": 3371,
+    "det": 3392,
+    "min": 1308,
+    "mitt": 47332,
+    "Ja": 22871,
+    "Nej": 4182
+  },
+  "device": "cuda",
+  "torch": "2.11.0+cu126",
+  "transformers": "5.17.0",
+  "design_sha256": {
+    "PROTOCOL.md": "e98a457807eb860b5abac5f4bdcfa3d5ea76612a3bdb606f36964c8d1970bf9d",
+    "actions.txt": "44b4d56efd1dac174fef2e148c77cd3d47900e6177a141a91ec699ada2916018",
+    "run.py": "2f1d59302d0015274a9f912f5b881911b1659fab571f0a3b1958ef042a6dace7"
+  }
+}

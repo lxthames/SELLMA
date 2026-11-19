@@ -1,0 +1,71 @@
+{
+  "baseline": {
+    "scenarios": 16,
+    "flip_consistent": 12,
+    "all_variants_consistent": 1,
+    "development_gate": true,
+    "comparable_order_pairs": 64,
+    "order_disagreements": 8,
+    "outcome_by_variant": {
+      "affirmative": {
+        "correct": 28,
+        "wrong": 4,
+        "unclassified": 0
+      },
+      "negated": {
+        "correct": 32,
+        "wrong": 0,
+        "unclassified": 0
+      },
+      "paraphrase": {
+        "correct": 32,
+        "wrong": 0,
+        "unclassified": 0
+      },
+      "irrelevant": {
+        "correct": 6,
+        "wrong": 26,
+        "unclassified": 0
+      }
+    }
+  },
+  "edited": {
+    "scenarios": 16,
+    "flip_consistent": 12,
+    "all_variants_consistent": 1,
+    "development_gate": true,
+    "comparable_order_pairs": 64,
+    "order_disagreements": 8,
+    "outcome_by_variant": {
+      "affirmative": {
+        "correct": 28,
+        "wrong": 4,
+        "unclassified": 0
+      },
+      "negated": {
+        "correct": 32,
+        "wrong": 0,
+        "unclassified": 0
+      },
+      "paraphrase": {
+        "correct": 32,
+        "wrong": 0,
+        "unclassified": 0
+      },
+      "irrelevant": {
+        "correct": 6,
+        "wrong": 26,
+        "unclassified": 0
+      }
+    }
+  },
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "strength": 0.25,
+  "negated_changes": {
+    "new_wrong": 0,
+    "newly_correct": 0
+  }
+}

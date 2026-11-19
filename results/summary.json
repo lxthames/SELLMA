@@ -1,0 +1,390 @@
+{
+  "protocol": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "seed": 42,
+    "edit_strength": 0.25,
+    "random_seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "bootstrap_samples": 10000,
+    "calibration_grid": {
+      "min": -20,
+      "max": 20,
+      "step": 0.01
+    },
+    "tie_policy": "An exact logit tie counts as half correct.",
+    "selection": "Fixed edit. Calibration maximizes balanced development accuracy, with smallest absolute bias breaking ties.",
+    "recommendation": "Explore replication only if held-out gain is positive, beats calibration and random 95th percentile, has a positive paired bootstrap lower bound, and regression mean log-probability change is at least -0.05 nats. This regression tolerance is a chosen exploratory threshold.",
+    "claim": "A fixed den-minus-det output-row direction transfers to min-minus-mitt agreement on unseen definite Swedish nouns."
+  },
+  "fingerprints": {
+    "data/benchmark.json": "555eff8c268434188dd141bcebaca952e5720115fded5bc8fce6ad8533bf4a1f",
+    "protocol.json": "bc4a7e09942a568265a566393bc7c025a8538b6cfecebe4968c68bf5d0834433",
+    "experiment.py": "9785c527f55a5f4e3959b554e1769e9d324f3daa7635a013323bcb4640ac4785"
+  },
+  "checks": {
+    "cached_direct_max_error": 2.9087066650390625e-05,
+    "restored_baseline_max_error": 2.9087066650390625e-05,
+    "input_embeddings_unchanged": true,
+    "token_boundaries_verified": true
+  },
+  "environment": {
+    "python": "3.13.9",
+    "torch": "2.11.0+cu126",
+    "transformers": "5.17.0",
+    "numpy": "2.4.2",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "dtype": "float32",
+    "attention": "eager"
+  },
+  "calibration_bias": -2.829999999997316,
+  "calibration_at_grid_boundary": false,
+  "random_gain_percentile95": 0.0,
+  "recommend_replication": false,
+  "conditions": {
+    "baseline": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.1521425098180771,
+      "regression_mean_logp_change": 0.0,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "fixed_edit": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.0920313373208046,
+      "regression_mean_logp_change": -0.01542897243052721,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "calibration": {
+      "accuracy": 0.4895833432674408,
+      "gain": -0.010416666977107525,
+      "gain_ci95": [
+        -0.21875,
+        0.19791666666666666
+      ],
+      "fixed": 30,
+      "broken": 31,
+      "mean_correct_margin": -0.1521424800157547,
+      "regression_mean_logp_change": 0.00044946669368073344,
+      "common_accuracy": 0.3541666567325592,
+      "neuter_accuracy": 0.625
+    },
+    "random_100": {
+      "accuracy": 0.4895833432674408,
+      "gain": -0.010416666977107525,
+      "gain_ci95": [
+        -0.03125,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 1,
+      "mean_correct_margin": -0.15539468824863434,
+      "regression_mean_logp_change": 0.2888485789299011,
+      "common_accuracy": 0.9791666865348816,
+      "neuter_accuracy": 0.0
+    },
+    "random_101": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.21952636539936066,
+      "regression_mean_logp_change": -0.056582190096378326,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_102": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.12123167514801025,
+      "regression_mean_logp_change": 0.23702502250671387,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_103": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.1905301809310913,
+      "regression_mean_logp_change": 0.2652316093444824,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_104": {
+      "accuracy": 0.4583333432674408,
+      "gain": -0.0416666679084301,
+      "gain_ci95": [
+        -0.3229166666666667,
+        0.22916666666666666
+      ],
+      "fixed": 44,
+      "broken": 48,
+      "mean_correct_margin": -0.11194831132888794,
+      "regression_mean_logp_change": 0.10215749591588974,
+      "common_accuracy": 0.0,
+      "neuter_accuracy": 0.9166666865348816
+    },
+    "random_105": {
+      "accuracy": 0.46875,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.07291666666666667,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "mean_correct_margin": -0.17051464319229126,
+      "regression_mean_logp_change": -0.08281688392162323,
+      "common_accuracy": 0.9375,
+      "neuter_accuracy": 0.0
+    },
+    "random_106": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.16257397830486298,
+      "regression_mean_logp_change": -0.011135769076645374,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_107": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.14908769726753235,
+      "regression_mean_logp_change": -0.0350235216319561,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_108": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.17710421979427338,
+      "regression_mean_logp_change": 0.1627490520477295,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_109": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.05197315290570259,
+      "regression_mean_logp_change": 0.062635138630867,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_110": {
+      "accuracy": 0.46875,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.07291666666666667,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "mean_correct_margin": -0.19583511352539062,
+      "regression_mean_logp_change": -0.1327980011701584,
+      "common_accuracy": 0.9375,
+      "neuter_accuracy": 0.0
+    },
+    "random_111": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        -0.22916666666666666,
+        0.22916666666666666
+      ],
+      "fixed": 36,
+      "broken": 36,
+      "mean_correct_margin": -0.132090225815773,
+      "regression_mean_logp_change": -0.0207307580858469,
+      "common_accuracy": 0.25,
+      "neuter_accuracy": 0.75
+    },
+    "random_112": {
+      "accuracy": 0.4791666567325592,
+      "gain": -0.02083333395421505,
+      "gain_ci95": [
+        -0.052083333333333336,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 2,
+      "mean_correct_margin": -0.15731972455978394,
+      "regression_mean_logp_change": 0.06477995216846466,
+      "common_accuracy": 0.9583333134651184,
+      "neuter_accuracy": 0.0
+    },
+    "random_113": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.1723586767911911,
+      "regression_mean_logp_change": 0.1698884516954422,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_114": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.08797144144773483,
+      "regression_mean_logp_change": 0.09700276702642441,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_115": {
+      "accuracy": 0.46875,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.07291666666666667,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "mean_correct_margin": -0.1899215579032898,
+      "regression_mean_logp_change": 0.0850888043642044,
+      "common_accuracy": 0.9375,
+      "neuter_accuracy": 0.0
+    },
+    "random_116": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.11621927469968796,
+      "regression_mean_logp_change": 0.04531290382146835,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_117": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.17049723863601685,
+      "regression_mean_logp_change": 0.031108308583498,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_118": {
+      "accuracy": 0.5,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "mean_correct_margin": -0.2633284330368042,
+      "regression_mean_logp_change": 0.04613761976361275,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0
+    },
+    "random_119": {
+      "accuracy": 0.46875,
+      "gain": -0.03125,
+      "gain_ci95": [
+        -0.07291666666666667,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 3,
+      "mean_correct_margin": -0.12378249317407608,
+      "regression_mean_logp_change": 0.012905096635222435,
+      "common_accuracy": 0.9375,
+      "neuter_accuracy": 0.0
+    }
+  },
+  "elapsed_seconds": 4.437766900053248
+}

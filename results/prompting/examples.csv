@@ -1,0 +1,321 @@
+id,noun,gender,split,task,frame,prompt,expected,zero_shot_prompt,zero_shot_margin,zero_shot_correct,four_shot_prompt,four_shot_margin,four_shot_correct
+flaska_target_0,flaska,common,test,target,0,Flaskan är,min,Flaskan är,2.513758659362793,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Flaskan är",0.8534393310546875,1.0
+flaska_target_1,flaska,common,test,target,1,Här finns en flaska. Jag tror att flaskan är,min,Här finns en flaska. Jag tror att flaskan är,2.6024551391601562,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en flaska. Jag tror att flaskan är",0.3284454345703125,1.0
+burk_target_0,burk,common,test,target,0,Burken är,min,Burken är,1.6740093231201172,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Burken är",0.8315639495849609,1.0
+burk_target_1,burk,common,test,target,1,Här finns en burk. Jag tror att burken är,min,Här finns en burk. Jag tror att burken är,1.676046371459961,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en burk. Jag tror att burken är",-0.6749439239501953,0.0
+låda_target_0,låda,common,test,target,0,Lådan är,min,Lådan är,2.297351837158203,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Lådan är",1.4095745086669922,1.0
+låda_target_1,låda,common,test,target,1,Här finns en låda. Jag tror att lådan är,min,Här finns en låda. Jag tror att lådan är,2.07342529296875,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en låda. Jag tror att lådan är",0.1575489044189453,1.0
+boll_target_0,boll,common,test,target,0,Bollen är,min,Bollen är,2.663055896759033,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Bollen är",-0.2727241516113281,0.0
+boll_target_1,boll,common,test,target,1,Här finns en boll. Jag tror att bollen är,min,Här finns en boll. Jag tror att bollen är,0.773442268371582,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en boll. Jag tror att bollen är",-0.5150279998779297,0.0
+docka_target_0,docka,common,test,target,0,Dockan är,min,Dockan är,1.833597183227539,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Dockan är",0.22820091247558594,1.0
+docka_target_1,docka,common,test,target,1,Här finns en docka. Jag tror att dockan är,min,Här finns en docka. Jag tror att dockan är,1.7482166290283203,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en docka. Jag tror att dockan är",-0.7506179809570312,0.0
+leksak_target_0,leksak,common,test,target,0,Leksaken är,min,Leksaken är,2.675081253051758,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Leksaken är",0.2123584747314453,1.0
+leksak_target_1,leksak,common,test,target,1,Här finns en leksak. Jag tror att leksaken är,min,Här finns en leksak. Jag tror att leksaken är,0.6916065216064453,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en leksak. Jag tror att leksaken är",-0.7027759552001953,0.0
+skål_target_0,skål,common,test,target,0,Skålen är,min,Skålen är,2.1376657485961914,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Skålen är",0.27027320861816406,1.0
+skål_target_1,skål,common,test,target,1,Här finns en skål. Jag tror att skålen är,min,Här finns en skål. Jag tror att skålen är,3.5060930252075195,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en skål. Jag tror att skålen är",-0.7543716430664062,0.0
+bricka_target_0,bricka,common,test,target,0,Brickan är,min,Brickan är,1.9951286315917969,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Brickan är",1.3178024291992188,1.0
+bricka_target_1,bricka,common,test,target,1,Här finns en bricka. Jag tror att brickan är,min,Här finns en bricka. Jag tror att brickan är,2.673097610473633,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en bricka. Jag tror att brickan är",0.025045394897460938,1.0
+kniv_target_0,kniv,common,test,target,0,Kniven är,min,Kniven är,1.5221452713012695,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Kniven är",0.1575908660888672,1.0
+kniv_target_1,kniv,common,test,target,1,Här finns en kniv. Jag tror att kniven är,min,Här finns en kniv. Jag tror att kniven är,2.12967586517334,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en kniv. Jag tror att kniven är",-0.5767345428466797,0.0
+visp_target_0,visp,common,test,target,0,Vispen är,min,Vispen är,1.7849178314208984,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Vispen är",0.6218051910400391,1.0
+visp_target_1,visp,common,test,target,1,Här finns en visp. Jag tror att vispen är,min,Här finns en visp. Jag tror att vispen är,0.9132299423217773,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en visp. Jag tror att vispen är",-1.0147857666015625,0.0
+hammare_target_0,hammare,common,test,target,0,Hammaren är,min,Hammaren är,1.5401582717895508,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Hammaren är",0.3991222381591797,1.0
+hammare_target_1,hammare,common,test,target,1,Här finns en hammare. Jag tror att hammaren är,min,Här finns en hammare. Jag tror att hammaren är,2.1183481216430664,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en hammare. Jag tror att hammaren är",-0.3090019226074219,0.0
+såg_target_0,såg,common,test,target,0,Sågen är,min,Sågen är,1.7530899047851562,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Sågen är",0.6224861145019531,1.0
+såg_target_1,såg,common,test,target,1,Här finns en såg. Jag tror att sågen är,min,Här finns en såg. Jag tror att sågen är,1.6878128051757812,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en såg. Jag tror att sågen är",-0.1946086883544922,0.0
+spade_target_0,spade,common,test,target,0,Spaden är,min,Spaden är,2.0823583602905273,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Spaden är",0.24503326416015625,1.0
+spade_target_1,spade,common,test,target,1,Här finns en spade. Jag tror att spaden är,min,Här finns en spade. Jag tror att spaden är,1.5143089294433594,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en spade. Jag tror att spaden är",-0.7513694763183594,0.0
+kratta_target_0,kratta,common,test,target,0,Krattan är,min,Krattan är,1.6311845779418945,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Krattan är",0.0566253662109375,1.0
+kratta_target_1,kratta,common,test,target,1,Här finns en kratta. Jag tror att krattan är,min,Här finns en kratta. Jag tror att krattan är,0.9964990615844727,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en kratta. Jag tror att krattan är",-0.8117313385009766,0.0
+lykta_target_0,lykta,common,test,target,0,Lyktan är,min,Lyktan är,1.0361509323120117,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Lyktan är",0.5905284881591797,1.0
+lykta_target_1,lykta,common,test,target,1,Här finns en lykta. Jag tror att lyktan är,min,Här finns en lykta. Jag tror att lyktan är,1.0805091857910156,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en lykta. Jag tror att lyktan är",-0.7560844421386719,0.0
+hink_target_0,hink,common,test,target,0,Hinken är,min,Hinken är,1.5446767807006836,1.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Hinken är",0.35573577880859375,1.0
+hink_target_1,hink,common,test,target,1,Här finns en hink. Jag tror att hinken är,min,Här finns en hink. Jag tror att hinken är,1.427750587463379,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns en hink. Jag tror att hinken är",-0.8893241882324219,0.0
+ankare_target_0,ankare,neuter,test,target,0,Ankaret är,mitt,Ankaret är,0.7565336227416992,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Ankaret är",0.2961311340332031,0.0
+ankare_target_1,ankare,neuter,test,target,1,Här finns ett ankare. Jag tror att ankaret är,mitt,Här finns ett ankare. Jag tror att ankaret är,-0.04974174499511719,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett ankare. Jag tror att ankaret är",-1.1958274841308594,1.0
+hjul_target_0,hjul,neuter,test,target,0,Hjulet är,mitt,Hjulet är,2.088397979736328,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Hjulet är",0.18354225158691406,0.0
+hjul_target_1,hjul,neuter,test,target,1,Här finns ett hjul. Jag tror att hjulet är,mitt,Här finns ett hjul. Jag tror att hjulet är,0.8148307800292969,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett hjul. Jag tror att hjulet är",-1.2657737731933594,1.0
+däck_target_0,däck,neuter,test,target,0,Däcket är,mitt,Däcket är,1.6467618942260742,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Däcket är",0.4443550109863281,0.0
+däck_target_1,däck,neuter,test,target,1,Här finns ett däck. Jag tror att däcket är,mitt,Här finns ett däck. Jag tror att däcket är,0.9643354415893555,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett däck. Jag tror att däcket är",-1.5833702087402344,1.0
+gevär_target_0,gevär,neuter,test,target,0,Geväret är,mitt,Geväret är,0.5770778656005859,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Geväret är",1.147134780883789,0.0
+gevär_target_1,gevär,neuter,test,target,1,Här finns ett gevär. Jag tror att geväret är,mitt,Här finns ett gevär. Jag tror att geväret är,2.2728233337402344,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett gevär. Jag tror att geväret är",-1.479299545288086,1.0
+svärd_target_0,svärd,neuter,test,target,0,Svärdet är,mitt,Svärdet är,1.8498897552490234,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Svärdet är",0.3048286437988281,0.0
+svärd_target_1,svärd,neuter,test,target,1,Här finns ett svärd. Jag tror att svärdet är,mitt,Här finns ett svärd. Jag tror att svärdet är,1.611964225769043,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett svärd. Jag tror att svärdet är",-1.4160995483398438,1.0
+lakan_target_0,lakan,neuter,test,target,0,Lakanet är,mitt,Lakanet är,2.07625675201416,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Lakanet är",0.4186973571777344,0.0
+lakan_target_1,lakan,neuter,test,target,1,Här finns ett lakan. Jag tror att lakanet är,mitt,Här finns ett lakan. Jag tror att lakanet är,1.6134834289550781,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett lakan. Jag tror att lakanet är",-2.1256370544433594,1.0
+täcke_target_0,täcke,neuter,test,target,0,Täcket är,mitt,Täcket är,1.305556297302246,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Täcket är",-0.39941978454589844,1.0
+täcke_target_1,täcke,neuter,test,target,1,Här finns ett täcke. Jag tror att täcket är,mitt,Här finns ett täcke. Jag tror att täcket är,1.1701173782348633,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett täcke. Jag tror att täcket är",-1.9604911804199219,1.0
+gosedjur_target_0,gosedjur,neuter,test,target,0,Gosedjuret är,mitt,Gosedjuret är,2.257878303527832,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Gosedjuret är",0.08209419250488281,0.0
+gosedjur_target_1,gosedjur,neuter,test,target,1,Här finns ett gosedjur. Jag tror att gosedjuret är,mitt,Här finns ett gosedjur. Jag tror att gosedjuret är,2.046200752258301,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett gosedjur. Jag tror att gosedjuret är",-1.637674331665039,1.0
+pussel_target_0,pussel,neuter,test,target,0,Pusslet är,mitt,Pusslet är,2.065157890319824,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Pusslet är",-0.8757534027099609,1.0
+pussel_target_1,pussel,neuter,test,target,1,Här finns ett pussel. Jag tror att pusslet är,mitt,Här finns ett pussel. Jag tror att pusslet är,0.29712867736816406,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett pussel. Jag tror att pusslet är",-1.5919342041015625,1.0
+spel_target_0,spel,neuter,test,target,0,Spelet är,mitt,Spelet är,1.7469635009765625,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Spelet är",-0.3474578857421875,1.0
+spel_target_1,spel,neuter,test,target,1,Här finns ett spel. Jag tror att spelet är,mitt,Här finns ett spel. Jag tror att spelet är,-0.15459346771240234,1.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett spel. Jag tror att spelet är",-1.9950942993164062,1.0
+akvarium_target_0,akvarium,neuter,test,target,0,Akvariet är,mitt,Akvariet är,2.9986448287963867,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Akvariet är",0.227294921875,0.0
+akvarium_target_1,akvarium,neuter,test,target,1,Här finns ett akvarium. Jag tror att akvariet är,mitt,Här finns ett akvarium. Jag tror att akvariet är,1.626708984375,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett akvarium. Jag tror att akvariet är",-1.6138477325439453,1.0
+terrarium_target_0,terrarium,neuter,test,target,0,Terrariet är,mitt,Terrariet är,2.8271427154541016,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Terrariet är",-0.08395004272460938,1.0
+terrarium_target_1,terrarium,neuter,test,target,1,Här finns ett terrarium. Jag tror att terrariet är,mitt,Här finns ett terrarium. Jag tror att terrariet är,1.9960918426513672,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett terrarium. Jag tror att terrariet är",-2.4870338439941406,1.0
+tråg_target_0,tråg,neuter,test,target,0,Tråget är,mitt,Tråget är,2.01993465423584,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Tråget är",-0.10424041748046875,1.0
+tråg_target_1,tråg,neuter,test,target,1,Här finns ett tråg. Jag tror att tråget är,mitt,Här finns ett tråg. Jag tror att tråget är,0.33365726470947266,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett tråg. Jag tror att tråget är",-1.2951717376708984,1.0
+durkslag_target_0,durkslag,neuter,test,target,0,Durkslaget är,mitt,Durkslaget är,2.0615291595458984,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Durkslaget är",-0.4108257293701172,1.0
+durkslag_target_1,durkslag,neuter,test,target,1,Här finns ett durkslag. Jag tror att durkslaget är,mitt,Här finns ett durkslag. Jag tror att durkslaget är,1.4490995407104492,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett durkslag. Jag tror att durkslaget är",-2.520343780517578,1.0
+sugrör_target_0,sugrör,neuter,test,target,0,Sugröret är,mitt,Sugröret är,2.00344181060791,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Sugröret är",-0.9152908325195312,1.0
+sugrör_target_1,sugrör,neuter,test,target,1,Här finns ett sugrör. Jag tror att sugröret är,mitt,Här finns ett sugrör. Jag tror att sugröret är,0.8242521286010742,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett sugrör. Jag tror att sugröret är",-1.7625160217285156,1.0
+suddgummi_target_0,suddgummi,neuter,test,target,0,Suddgummit är,mitt,Suddgummit är,1.0338926315307617,0.0,"Spegeln är min.
+Äpplet är mitt.
+Borsten är min.
+Päronet är mitt.
+Suddgummit är",0.2004108428955078,0.0
+suddgummi_target_1,suddgummi,neuter,test,target,1,Här finns ett suddgummi. Jag tror att suddgummit är,mitt,Här finns ett suddgummi. Jag tror att suddgummit är,1.4245738983154297,0.0,"Här finns en spegel. Jag tror att spegeln är min.
+Här finns ett äpple. Jag tror att äpplet är mitt.
+Här finns en borste. Jag tror att borsten är min.
+Här finns ett päron. Jag tror att päronet är mitt.
+Här finns ett suddgummi. Jag tror att suddgummit är",-2.2776317596435547,1.0

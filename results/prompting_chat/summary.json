@@ -1,0 +1,164 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "dtype": "torch.float32",
+  "device": "cpu",
+  "provenance": "Exploratory reuse of the inspected follow-up test split.",
+  "demonstrations": {
+    "0": [
+      {
+        "id": "spegel_target_0",
+        "noun": "spegel",
+        "gender": "common",
+        "split": "dev",
+        "task": "target",
+        "frame": 0,
+        "prompt": "Spegeln är",
+        "expected": "min"
+      },
+      {
+        "id": "äpple_target_0",
+        "noun": "äpple",
+        "gender": "neuter",
+        "split": "dev",
+        "task": "target",
+        "frame": 0,
+        "prompt": "Äpplet är",
+        "expected": "mitt"
+      },
+      {
+        "id": "borste_target_0",
+        "noun": "borste",
+        "gender": "common",
+        "split": "dev",
+        "task": "target",
+        "frame": 0,
+        "prompt": "Borsten är",
+        "expected": "min"
+      },
+      {
+        "id": "päron_target_0",
+        "noun": "päron",
+        "gender": "neuter",
+        "split": "dev",
+        "task": "target",
+        "frame": 0,
+        "prompt": "Päronet är",
+        "expected": "mitt"
+      }
+    ],
+    "1": [
+      {
+        "id": "spegel_target_1",
+        "noun": "spegel",
+        "gender": "common",
+        "split": "dev",
+        "task": "target",
+        "frame": 1,
+        "prompt": "Här finns en spegel. Jag tror att spegeln är",
+        "expected": "min"
+      },
+      {
+        "id": "äpple_target_1",
+        "noun": "äpple",
+        "gender": "neuter",
+        "split": "dev",
+        "task": "target",
+        "frame": 1,
+        "prompt": "Här finns ett äpple. Jag tror att äpplet är",
+        "expected": "mitt"
+      },
+      {
+        "id": "borste_target_1",
+        "noun": "borste",
+        "gender": "common",
+        "split": "dev",
+        "task": "target",
+        "frame": 1,
+        "prompt": "Här finns en borste. Jag tror att borsten är",
+        "expected": "min"
+      },
+      {
+        "id": "päron_target_1",
+        "noun": "päron",
+        "gender": "neuter",
+        "split": "dev",
+        "task": "target",
+        "frame": 1,
+        "prompt": "Här finns ett päron. Jag tror att päronet är",
+        "expected": "mitt"
+      }
+    ]
+  },
+  "conditions": {
+    "zero_shot": {
+      "accuracy": 0.53125,
+      "per_gender": {
+        "common": 1.0,
+        "neuter": 0.0625
+      },
+      "target_gate": false
+    },
+    "four_shot": {
+      "accuracy": 0.640625,
+      "per_gender": {
+        "common": 0.5625,
+        "neuter": 0.71875
+      },
+      "target_gate": false
+    },
+    "chat_zero_shot": {
+      "accuracy": 0.390625,
+      "per_gender": {
+        "common": 0.5,
+        "neuter": 0.28125
+      },
+      "target_gate": false
+    },
+    "chat_four_shot": {
+      "accuracy": 0.59375,
+      "per_gender": {
+        "common": 0.46875,
+        "neuter": 0.71875
+      },
+      "target_gate": false
+    }
+  },
+  "gain": 0.109375,
+  "gain_ci95": [
+    0.015625,
+    0.203125
+  ],
+  "fingerprints": {
+    "prompting_check.py": "cef16a64c85670cd68a8509fe2f7dc5d7c0eac5fb0da1233a71510c2eb7b43d4",
+    "checkpoint_check.py": "8af8f2c00a4e4fd992529f2194501dea0e8e23976fe408b2c84976c77601dfc2",
+    "followup.py": "daf03cc7b6df3bcbc378efed965cc35e701783917599b84a5a05cb28ccda4cd1",
+    "data/followup.json": "4e2a10ac9f3db4c16e16ed32db58e09d7b4a4e7a2720a2e4c0751f76b0320ed0",
+    "followup_protocol.json": "d39f7224ec22b649248a1e4d296dfdd62ea61cb6a2dfdf14634d4f1ceda05bdd"
+  },
+  "bootstrap_seed": 314,
+  "bootstrap_samples": 10000,
+  "comparisons": {
+    "chat_zero_shot_vs_zero_shot": {
+      "gain": -0.140625,
+      "gain_ci95": [
+        -0.28125,
+        0.0
+      ]
+    },
+    "chat_four_shot_vs_four_shot": {
+      "gain": -0.046875,
+      "gain_ci95": [
+        -0.15625,
+        0.0625
+      ]
+    },
+    "chat_four_shot_vs_chat_zero_shot": {
+      "gain": 0.203125,
+      "gain_ci95": [
+        0.0625,
+        0.328125
+      ]
+    }
+  }
+}

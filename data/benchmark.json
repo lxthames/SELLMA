@@ -1,0 +1,38 @@
+{
+  "provenance": "Original synthetic examples for this experiment. Independently proofread Swedish linguistic validation is pending. Released under CC0-1.0.",
+  "frames": ["{noun} är", "Jag tror att {noun_lower} är"],
+  "nouns": [
+    ["Cykeln", "common", "dev"], ["Boken", "common", "dev"], ["Väskan", "common", "dev"],
+    ["Telefonen", "common", "dev"], ["Bilen", "common", "dev"], ["Nyckeln", "common", "dev"],
+    ["Huset", "neuter", "dev"], ["Bordet", "neuter", "dev"], ["Brevet", "neuter", "dev"],
+    ["Fotot", "neuter", "dev"], ["Glaset", "neuter", "dev"], ["Paketet", "neuter", "dev"],
+    ["Stolen", "common", "test"], ["Lampan", "common", "test"], ["Pennan", "common", "test"],
+    ["Klockan", "common", "test"], ["Jackan", "common", "test"], ["Tröjan", "common", "test"],
+    ["Skjortan", "common", "test"], ["Hatten", "common", "test"], ["Mössan", "common", "test"],
+    ["Halsduken", "common", "test"], ["Kameran", "common", "test"], ["Datorn", "common", "test"],
+    ["Gitarren", "common", "test"], ["Fiolen", "common", "test"], ["Båten", "common", "test"],
+    ["Tavlan", "common", "test"], ["Mattan", "common", "test"], ["Soffan", "common", "test"],
+    ["Sängen", "common", "test"], ["Koppen", "common", "test"], ["Tallriken", "common", "test"],
+    ["Skeden", "common", "test"], ["Gaffeln", "common", "test"], ["Kastrullen", "common", "test"],
+    ["Skåpet", "neuter", "test"], ["Fodralet", "neuter", "test"], ["Smycket", "neuter", "test"],
+    ["Armbandet", "neuter", "test"], ["Halsbandet", "neuter", "test"], ["Örhänget", "neuter", "test"],
+    ["Kvittot", "neuter", "test"], ["Passet", "neuter", "test"], ["Kortet", "neuter", "test"],
+    ["Myntet", "neuter", "test"], ["Frimärket", "neuter", "test"], ["Häftet", "neuter", "test"],
+    ["Blocket", "neuter", "test"], ["Albumet", "neuter", "test"], ["Pianot", "neuter", "test"],
+    ["Instrumentet", "neuter", "test"], ["Tältet", "neuter", "test"], ["Paraplyet", "neuter", "test"],
+    ["Förklädet", "neuter", "test"], ["Bältet", "neuter", "test"], ["Verktyget", "neuter", "test"],
+    ["Låset", "neuter", "test"], ["Fatet", "neuter", "test"], ["Kärlet", "neuter", "test"]
+  ],
+  "regressions": [
+    ["Hon gjorde en sur", "min"], ["Han gjorde en rolig", "min"],
+    ["Barnet gjorde en konstig", "min"], ["Hon betraktade honom med en förvånad", "min"],
+    ["Han svarade med en bekymrad", "min"], ["Skådespelaren gjorde en lustig", "min"],
+    ["Hon nickade med en allvarlig", "min"], ["Han såg på mig med en frågande", "min"],
+    ["Hon lyssnade med en skeptisk", "min"], ["Han stod där med en bister", "min"],
+    ["Vi bor precis", "mitt"], ["Huset ligger alldeles", "mitt"],
+    ["Bilen stannade plötsligt", "mitt"], ["Hon vaknade", "mitt"],
+    ["De träffades", "mitt"], ["Han satt", "mitt"],
+    ["Det började regna", "mitt"], ["Vi möttes", "mitt"],
+    ["Telefonen ringde", "mitt"], ["Barnet stod", "mitt"]
+  ]
+}

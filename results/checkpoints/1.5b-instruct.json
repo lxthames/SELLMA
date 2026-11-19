@@ -1,0 +1,703 @@
+{
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "seed": 314,
+    "original_edit_strength": 0.25,
+    "strengths": [
+      0.0,
+      0.125,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "selection": "Maximize target development balanced accuracy; break ties toward the smallest nonnegative strength. Never select on test results.",
+    "calibration_grid": {
+      "min": -20,
+      "max": 20,
+      "step": 0.01
+    },
+    "random_seeds": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219
+    ],
+    "random_control_strength": "Selected strength, including zero if development selects no edit.",
+    "bootstrap_samples": 10000,
+    "bootstrap": "Paired noun clusters, stratified by gender, retaining both frames; percentile interval is descriptive, not an equivalence test.",
+    "competence_threshold": 0.75,
+    "competence_rule": "Baseline source and target accuracy must each be at least 75% in both genders on held-out nouns. This is a diagnostic operational threshold, not proof of general competence.",
+    "direct_tolerance": 0.0003,
+    "regression_min_mean_logp_change": -0.05,
+    "support_rule": "Selected edit must improve held-out accuracy, have paired gain CI lower bound above zero, beat calibration and the random-control 95th percentile, pass the regression threshold, and pass the competence gate. A failed rule leaves the broader transfer hypothesis unresolved.",
+    "status": "Follow-up designed after inspecting the original experiment. A local pre-evaluation fingerprint is not independently registered. Synthetic Swedish contexts have not received independent speaker validation."
+  },
+  "selection": {
+    "selected_strength": 0.0,
+    "development_candidates": [
+      {
+        "strength": 0.0,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.125,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.25,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 0.5,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 1.0,
+        "accuracy": 0.5
+      },
+      {
+        "strength": 2.0,
+        "accuracy": 0.46875
+      }
+    ],
+    "calibration_bias": 3.126388037344441e-12,
+    "calibration_development_accuracy": 0.5,
+    "calibration_at_grid_boundary": false
+  },
+  "competence": {
+    "source": {
+      "accuracy": 0.828125,
+      "count": 64,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.65625
+    },
+    "target": {
+      "accuracy": 0.484375,
+      "count": 64,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0
+    }
+  },
+  "support_checks": {
+    "competence_gate": false,
+    "positive_gain": false,
+    "positive_gain_interval": false,
+    "beats_calibration": false,
+    "beats_random95": false,
+    "regression_threshold": true
+  },
+  "supports_transfer": false,
+  "random_gain_percentile95": 0.0,
+  "conditions": {
+    "baseline": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "fixed_edit": {
+      "accuracy": 0.5,
+      "gain": 0.015625,
+      "gain_ci95": [
+        0.0,
+        0.046875
+      ],
+      "fixed": 1,
+      "broken": 0,
+      "common_accuracy": 1.0,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": -0.18829311430454254,
+      "regression_groups": {
+        "min": -0.08255960792303085,
+        "mitt": -0.29402661323547363
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "reversed_fixed": {
+      "accuracy": 0.5,
+      "gain": 0.015625,
+      "gain_ci95": [
+        0.0,
+        0.046875
+      ],
+      "fixed": 1,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.03125,
+      "regression_mean_logp_change": 0.18818430602550507,
+      "regression_groups": {
+        "min": 0.08241347968578339,
+        "mitt": 0.29395514726638794
+      },
+      "frame_accuracy": {
+        "0": 0.5,
+        "1": 0.5
+      }
+    },
+    "selected_edit": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "reversed_selected": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "calibration": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_200": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_201": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_202": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_203": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_204": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_205": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_206": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_207": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_208": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_209": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_210": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_211": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_212": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_213": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_214": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_215": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_216": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_217": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_218": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    },
+    "random_219": {
+      "accuracy": 0.484375,
+      "gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "common_accuracy": 0.96875,
+      "neuter_accuracy": 0.0,
+      "regression_mean_logp_change": 0.0,
+      "regression_groups": {
+        "min": 0.0,
+        "mitt": 0.0
+      },
+      "frame_accuracy": {
+        "0": 0.46875,
+        "1": 0.5
+      }
+    }
+  },
+  "checks": {
+    "direct_max_errors": {
+      "-2.0": 5.53131103515625e-05,
+      "0.25": 5.53131103515625e-05,
+      "2.0": 5.53131103515625e-05
+    },
+    "restored_max_error": 5.53131103515625e-05,
+    "direct_prompt_count": 18,
+    "input_embeddings_unchanged": true,
+    "both_candidate_boundaries_verified": true
+  },
+  "environment": {
+    "python": "3.13.9",
+    "torch": "2.11.0+cu126",
+    "transformers": "5.17.0",
+    "numpy": "2.4.2",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "dtype": "float32",
+    "attention": "eager"
+  },
+  "direction_probe": {
+    "source": {
+      "auc": 0.970703125,
+      "common_mean": 1.600562572479248,
+      "neuter_mean": -0.25149470567703247,
+      "zero_threshold_accuracy": 0.828125,
+      "fitted_threshold": 0.17072415351867676,
+      "fitted_threshold_accuracy": 0.890625
+    },
+    "target": {
+      "auc": 0.7080078125,
+      "common_mean": 0.6710931062698364,
+      "neuter_mean": 0.45190200209617615,
+      "zero_threshold_accuracy": 0.546875,
+      "fitted_threshold": 0.5656841993331909,
+      "fitted_threshold_accuracy": 0.65625
+    }
+  },
+  "fingerprints": {
+    "checkpoint_check.py": "8af8f2c00a4e4fd992529f2194501dea0e8e23976fe408b2c84976c77601dfc2",
+    "followup.py": "daf03cc7b6df3bcbc378efed965cc35e701783917599b84a5a05cb28ccda4cd1",
+    "data/followup.json": "4e2a10ac9f3db4c16e16ed32db58e09d7b4a4e7a2720a2e4c0751f76b0320ed0",
+    "data/benchmark.json": "555eff8c268434188dd141bcebaca952e5720115fded5bc8fce6ad8533bf4a1f",
+    "followup_protocol.json": "d39f7224ec22b649248a1e4d296dfdd62ea61cb6a2dfdf14634d4f1ceda05bdd"
+  }
+}

@@ -1,0 +1,387 @@
+action,negative_instruction,negative_claim,prompt,expected,baseline_text,baseline_outcome,baseline_margin,edited_text,edited_outcome,edited_margin
+skriva datumet på blanketten,False,False,"Instruktion: Du ska skriva datumet på blanketten.
+Påstående: Jag ska skriva datumet på blanketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska skriva",opposite,-0.28360748291015625," Nej
+Du ska skriva",opposite,-0.28360748291015625
+skriva datumet på blanketten,False,True,"Instruktion: Du ska skriva datumet på blanketten.
+Påstående: Jag ska inte skriva datumet på blanketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej, det är inte korre",correct,-0.7439556121826172," Nej, det är inte korre",correct,-0.7439556121826172
+skriva datumet på blanketten,True,False,"Instruktion: Du ska inte skriva datumet på blanketten.
+Påstående: Jag ska skriva datumet på blanketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte skr",correct,-0.721034049987793," Nej
+Du ska inte skr",correct,-0.721034049987793
+skriva datumet på blanketten,True,True,"Instruktion: Du ska inte skriva datumet på blanketten.
+Påstående: Jag ska inte skriva datumet på blanketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+
+Du ska inte skr",opposite,-0.537567138671875," Nej
+
+Du ska inte skr",opposite,-0.537567138671875
+lägga kopian i kuvertet,False,False,"Instruktion: Du ska lägga kopian i kuvertet.
+Påstående: Jag ska lägga kopian i kuvertet.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska lägga",opposite,-1.2464790344238281," Nej
+Du ska lägga",opposite,-1.2464790344238281
+lägga kopian i kuvertet,False,True,"Instruktion: Du ska lägga kopian i kuvertet.
+Påstående: Jag ska inte lägga kopian i kuvertet.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska lägga",correct,-1.807027816772461," Nej
+Du ska lägga",correct,-1.807027816772461
+lägga kopian i kuvertet,True,False,"Instruktion: Du ska inte lägga kopian i kuvertet.
+Påstående: Jag ska lägga kopian i kuvertet.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte läg",correct,-1.6436595916748047," Nej
+Du ska inte läg",correct,-1.6436595916748047
+lägga kopian i kuvertet,True,True,"Instruktion: Du ska inte lägga kopian i kuvertet.
+Påstående: Jag ska inte lägga kopian i kuvertet.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte läg",opposite,-1.4746637344360352," Nej
+Du ska inte läg",opposite,-1.4746637344360352
+lämna nyckeln i receptionen,False,False,"Instruktion: Du ska lämna nyckeln i receptionen.
+Påstående: Jag ska lämna nyckeln i receptionen.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska lämna",opposite,-0.7960443496704102," Nej
+Du ska lämna",opposite,-0.7960443496704102
+lämna nyckeln i receptionen,False,True,"Instruktion: Du ska lämna nyckeln i receptionen.
+Påstående: Jag ska inte lämna nyckeln i receptionen.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska lämna",correct,-1.2116270065307617," Nej
+Du ska lämna",correct,-1.2116270065307617
+lämna nyckeln i receptionen,True,False,"Instruktion: Du ska inte lämna nyckeln i receptionen.
+Påstående: Jag ska lämna nyckeln i receptionen.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte läm",correct,-1.1030244827270508," Nej
+Du ska inte läm",correct,-1.1030244827270508
+lämna nyckeln i receptionen,True,True,"Instruktion: Du ska inte lämna nyckeln i receptionen.
+Påstående: Jag ska inte lämna nyckeln i receptionen.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte läm",opposite,-1.1484994888305664," Nej
+Du ska inte läm",opposite,-1.1484994888305664
+visa kortet vid disken,False,False,"Instruktion: Du ska visa kortet vid disken.
+Påstående: Jag ska visa kortet vid disken.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska visa kortet",opposite,-0.7978334426879883," Nej
+Du ska visa kortet",opposite,-0.7978334426879883
+visa kortet vid disken,False,True,"Instruktion: Du ska visa kortet vid disken.
+Påstående: Jag ska inte visa kortet vid disken.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska visa kortet",correct,-1.3899259567260742," Nej
+Du ska visa kortet",correct,-1.3899259567260742
+visa kortet vid disken,True,False,"Instruktion: Du ska inte visa kortet vid disken.
+Påstående: Jag ska visa kortet vid disken.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Detta är en st",correct,-1.266251564025879," Nej
+Detta är en st",correct,-1.266251564025879
+visa kortet vid disken,True,True,"Instruktion: Du ska inte visa kortet vid disken.
+Påstående: Jag ska inte visa kortet vid disken.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Detta är ett exemp",opposite,-1.0971088409423828," Nej
+Detta är ett exemp",opposite,-1.0971088409423828
+spara kvittot,False,False,"Instruktion: Du ska spara kvittot.
+Påstående: Jag ska spara kvittot.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska spara kv",opposite,-0.45843505859375," Nej
+Du ska spara kv",opposite,-0.45843505859375
+spara kvittot,False,True,"Instruktion: Du ska spara kvittot.
+Påstående: Jag ska inte spara kvittot.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska spara kv",correct,-1.1898870468139648," Nej
+Du ska spara kv",correct,-1.1898870468139648
+spara kvittot,True,False,"Instruktion: Du ska inte spara kvittot.
+Påstående: Jag ska spara kvittot.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte spara",correct,-0.8810548782348633," Nej
+Du ska inte spara",correct,-0.8810548782348633
+spara kvittot,True,True,"Instruktion: Du ska inte spara kvittot.
+Påstående: Jag ska inte spara kvittot.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte spara",opposite,-0.6599607467651367," Nej
+Du ska inte spara",opposite,-0.6599607467651367
+ta med bokningsnumret,False,False,"Instruktion: Du ska ta med bokningsnumret.
+Påstående: Jag ska ta med bokningsnumret.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska ta med b",opposite,-0.5420331954956055," Nej
+Du ska ta med b",opposite,-0.5420331954956055
+ta med bokningsnumret,False,True,"Instruktion: Du ska ta med bokningsnumret.
+Påstående: Jag ska inte ta med bokningsnumret.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska ta med b",correct,-1.0641593933105469," Nej
+Du ska ta med b",correct,-1.0641593933105469
+ta med bokningsnumret,True,False,"Instruktion: Du ska inte ta med bokningsnumret.
+Påstående: Jag ska ta med bokningsnumret.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte ta med",correct,-0.9905118942260742," Nej
+Du ska inte ta med",correct,-0.9905118942260742
+ta med bokningsnumret,True,True,"Instruktion: Du ska inte ta med bokningsnumret.
+Påstående: Jag ska inte ta med bokningsnumret.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte ta med",opposite,-0.6779270172119141," Nej
+Du ska inte ta med",opposite,-0.6779270172119141
+använda den blå lådan,False,False,"Instruktion: Du ska använda den blå lådan.
+Påstående: Jag ska använda den blå lådan.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska använda den",opposite,-0.28842926025390625," Nej
+Du ska använda den",opposite,-0.28842926025390625
+använda den blå lådan,False,True,"Instruktion: Du ska använda den blå lådan.
+Påstående: Jag ska inte använda den blå lådan.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska använda den",correct,-0.7917356491088867," Nej
+Du ska använda den",correct,-0.7917356491088867
+använda den blå lådan,True,False,"Instruktion: Du ska inte använda den blå lådan.
+Påstående: Jag ska använda den blå lådan.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte använda",correct,-0.937896728515625," Nej
+Du ska inte använda",correct,-0.937896728515625
+använda den blå lådan,True,True,"Instruktion: Du ska inte använda den blå lådan.
+Påstående: Jag ska inte använda den blå lådan.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte använda",opposite,-0.5175151824951172," Nej
+Du ska inte använda",opposite,-0.5175151824951172
+fylla i den sista raden,False,False,"Instruktion: Du ska fylla i den sista raden.
+Påstående: Jag ska fylla i den sista raden.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska fylla",opposite,-0.6584272384643555," Nej
+Du ska fylla",opposite,-0.6584272384643555
+fylla i den sista raden,False,True,"Instruktion: Du ska fylla i den sista raden.
+Påstående: Jag ska inte fylla i den sista raden.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska fylla",correct,-1.2819786071777344," Nej
+Du ska fylla",correct,-1.2819786071777344
+fylla i den sista raden,True,False,"Instruktion: Du ska inte fylla i den sista raden.
+Påstående: Jag ska fylla i den sista raden.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte fyll",correct,-1.1868486404418945," Nej
+Du ska inte fyll",correct,-1.1868486404418945
+fylla i den sista raden,True,True,"Instruktion: Du ska inte fylla i den sista raden.
+Påstående: Jag ska inte fylla i den sista raden.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte fyll",opposite,-1.1661262512207031," Nej
+Du ska inte fyll",opposite,-1.1661262512207031
+skriva namnet på etiketten,False,False,"Instruktion: Du ska skriva namnet på etiketten.
+Påstående: Jag ska skriva namnet på etiketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska skriva",opposite,-0.4677314758300781," Nej
+Du ska skriva",opposite,-0.4677314758300781
+skriva namnet på etiketten,False,True,"Instruktion: Du ska skriva namnet på etiketten.
+Påstående: Jag ska inte skriva namnet på etiketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej, det är inte korre",correct,-0.8187494277954102," Nej, det är inte korre",correct,-0.8187494277954102
+skriva namnet på etiketten,True,False,"Instruktion: Du ska inte skriva namnet på etiketten.
+Påstående: Jag ska skriva namnet på etiketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej.
+
+Du ska inte skr",correct,-0.7994146347045898," Nej.
+
+Du ska inte skr",correct,-0.7994146347045898
+skriva namnet på etiketten,True,True,"Instruktion: Du ska inte skriva namnet på etiketten.
+Påstående: Jag ska inte skriva namnet på etiketten.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej.
+
+Du ska inte skr",opposite,-0.7809877395629883," Nej.
+
+Du ska inte skr",opposite,-0.7809877395629883
+lägga bilagan överst,False,False,"Instruktion: Du ska lägga bilagan överst.
+Påstående: Jag ska lägga bilagan överst.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska lägga",opposite,-1.0228252410888672," Nej
+Du ska lägga",opposite,-1.0228252410888672
+lägga bilagan överst,False,True,"Instruktion: Du ska lägga bilagan överst.
+Påstående: Jag ska inte lägga bilagan överst.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska lägga",correct,-1.2206287384033203," Nej
+Du ska lägga",correct,-1.2206287384033203
+lägga bilagan överst,True,False,"Instruktion: Du ska inte lägga bilagan överst.
+Påstående: Jag ska lägga bilagan överst.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte läg",correct,-1.3530054092407227," Nej
+Du ska inte läg",correct,-1.3530054092407227
+lägga bilagan överst,True,True,"Instruktion: Du ska inte lägga bilagan överst.
+Påstående: Jag ska inte lägga bilagan överst.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte läg",opposite,-0.9434623718261719," Nej
+Du ska inte läg",opposite,-0.9434623718261719
+märka mappen med ett kryss,False,False,"Instruktion: Du ska märka mappen med ett kryss.
+Påstående: Jag ska märka mappen med ett kryss.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska märka",opposite,-0.751399040222168," Nej
+Du ska märka",opposite,-0.751399040222168
+märka mappen med ett kryss,False,True,"Instruktion: Du ska märka mappen med ett kryss.
+Påstående: Jag ska inte märka mappen med ett kryss.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska märka",correct,-1.2579889297485352," Nej
+Du ska märka",correct,-1.2579889297485352
+märka mappen med ett kryss,True,False,"Instruktion: Du ska inte märka mappen med ett kryss.
+Påstående: Jag ska märka mappen med ett kryss.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte mär",correct,-0.9917030334472656," Nej
+Du ska inte mär",correct,-0.9917030334472656
+märka mappen med ett kryss,True,True,"Instruktion: Du ska inte märka mappen med ett kryss.
+Påstående: Jag ska inte märka mappen med ett kryss.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte mär",opposite,-0.8948507308959961," Nej
+Du ska inte mär",opposite,-0.8948507308959961
+ta en kölapp,False,False,"Instruktion: Du ska ta en kölapp.
+Påstående: Jag ska ta en kölapp.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska ta en kö",opposite,-0.7473354339599609," Nej
+Du ska ta en kö",opposite,-0.7473354339599609
+ta en kölapp,False,True,"Instruktion: Du ska ta en kölapp.
+Påstående: Jag ska inte ta en kölapp.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska ta en kö",correct,-1.4737071990966797," Nej
+Du ska ta en kö",correct,-1.4737071990966797
+ta en kölapp,True,False,"Instruktion: Du ska inte ta en kölapp.
+Påstående: Jag ska ta en kölapp.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte ta en",correct,-1.3935861587524414," Nej
+Du ska inte ta en",correct,-1.3935861587524414
+ta en kölapp,True,True,"Instruktion: Du ska inte ta en kölapp.
+Påstående: Jag ska inte ta en kölapp.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte ta en",opposite,-0.960235595703125," Nej
+Du ska inte ta en",opposite,-0.960235595703125
+skicka med en kopia,False,False,"Instruktion: Du ska skicka med en kopia.
+Påstående: Jag ska skicka med en kopia.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska skicka",opposite,-0.5965633392333984," Nej
+Du ska skicka",opposite,-0.5965633392333984
+skicka med en kopia,False,True,"Instruktion: Du ska skicka med en kopia.
+Påstående: Jag ska inte skicka med en kopia.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska skicka",correct,-0.9691143035888672," Nej
+Du ska skicka",correct,-0.9691143035888672
+skicka med en kopia,True,False,"Instruktion: Du ska inte skicka med en kopia.
+Påstående: Jag ska skicka med en kopia.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte skick",correct,-1.1035451889038086," Nej
+Du ska inte skick",correct,-1.1035451889038086
+skicka med en kopia,True,True,"Instruktion: Du ska inte skicka med en kopia.
+Påstående: Jag ska inte skicka med en kopia.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte skick",opposite,-0.6062068939208984," Nej
+Du ska inte skick",opposite,-0.6062068939208984
+ange rummets nummer,False,False,"Instruktion: Du ska ange rummets nummer.
+Påstående: Jag ska ange rummets nummer.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska ange rumm",opposite,-1.1190452575683594," Nej
+Du ska ange rumm",opposite,-1.1190452575683594
+ange rummets nummer,False,True,"Instruktion: Du ska ange rummets nummer.
+Påstående: Jag ska inte ange rummets nummer.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska ange rumm",correct,-1.8368492126464844," Nej
+Du ska ange rumm",correct,-1.8368492126464844
+ange rummets nummer,True,False,"Instruktion: Du ska inte ange rummets nummer.
+Påstående: Jag ska ange rummets nummer.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte ange rum",correct,-1.565948486328125," Nej
+Du ska inte ange rum",correct,-1.565948486328125
+ange rummets nummer,True,True,"Instruktion: Du ska inte ange rummets nummer.
+Påstående: Jag ska inte ange rummets nummer.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte ange rum",opposite,-1.3652639389038086," Nej
+Du ska inte ange rum",opposite,-1.3652639389038086
+använda sidoingången,False,False,"Instruktion: Du ska använda sidoingången.
+Påstående: Jag ska använda sidoingången.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska använda sido",opposite,-0.44809913635253906," Nej
+Du ska använda sido",opposite,-0.44809913635253906
+använda sidoingången,False,True,"Instruktion: Du ska använda sidoingången.
+Påstående: Jag ska inte använda sidoingången.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte använda",correct,-1.3239221572875977," Nej
+Du ska inte använda",correct,-1.3239221572875977
+använda sidoingången,True,False,"Instruktion: Du ska inte använda sidoingången.
+Påstående: Jag ska använda sidoingången.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte använda",correct,-1.155996322631836," Nej
+Du ska inte använda",correct,-1.155996322631836
+använda sidoingången,True,True,"Instruktion: Du ska inte använda sidoingången.
+Påstående: Jag ska inte använda sidoingången.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte använda",opposite,-1.0258255004882812," Nej
+Du ska inte använda",opposite,-1.0258255004882812
+visa bekräftelsen vid entrén,False,False,"Instruktion: Du ska visa bekräftelsen vid entrén.
+Påstående: Jag ska visa bekräftelsen vid entrén.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska visa bekr",opposite,-0.27179527282714844," Nej
+Du ska visa bekr",opposite,-0.27179527282714844
+visa bekräftelsen vid entrén,False,True,"Instruktion: Du ska visa bekräftelsen vid entrén.
+Påstående: Jag ska inte visa bekräftelsen vid entrén.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska visa bekr",correct,-0.9323978424072266," Nej
+Du ska visa bekr",correct,-0.9323978424072266
+visa bekräftelsen vid entrén,True,False,"Instruktion: Du ska inte visa bekräftelsen vid entrén.
+Påstående: Jag ska visa bekräftelsen vid entrén.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",nej," Nej
+Du ska inte visa be",correct,-0.7847003936767578," Nej
+Du ska inte visa be",correct,-0.7847003936767578
+visa bekräftelsen vid entrén,True,True,"Instruktion: Du ska inte visa bekräftelsen vid entrén.
+Påstående: Jag ska inte visa bekräftelsen vid entrén.
+Stämmer påståendet med instruktionen? Svara ja eller nej.
+Svar:",ja," Nej
+Du ska inte visa be",opposite,-0.8904457092285156," Nej
+Du ska inte visa be",opposite,-0.8904457092285156

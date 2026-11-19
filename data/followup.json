@@ -1,0 +1,351 @@
+{
+  "provenance": "New synthetic follow-up examples under CC0-1.0. Independent Swedish speaker review is pending. Indefinite articles explicitly reveal gender in source contexts; this is a cued diagnostic, not an uncued comprehension test.",
+  "frames": {
+    "source": [
+      "Jag har {article} {lemma}. Jag använder",
+      "Jag köpte {article} {lemma}. Nu använder jag"
+    ],
+    "target": [
+      "{definite_title} är",
+      "Här finns {article} {lemma}. Jag tror att {definite} är"
+    ]
+  },
+  "nouns": [
+    {
+      "lemma": "spegel",
+      "definite": "spegeln",
+      "gender": "common",
+      "split": "dev",
+      "family": "spegel"
+    },
+    {
+      "lemma": "borste",
+      "definite": "borsten",
+      "gender": "common",
+      "split": "dev",
+      "family": "borste"
+    },
+    {
+      "lemma": "handduk",
+      "definite": "handduken",
+      "gender": "common",
+      "split": "dev",
+      "family": "handduk"
+    },
+    {
+      "lemma": "filt",
+      "definite": "filten",
+      "gender": "common",
+      "split": "dev",
+      "family": "filt"
+    },
+    {
+      "lemma": "kudde",
+      "definite": "kudden",
+      "gender": "common",
+      "split": "dev",
+      "family": "kudde"
+    },
+    {
+      "lemma": "ryggsäck",
+      "definite": "ryggsäcken",
+      "gender": "common",
+      "split": "dev",
+      "family": "ryggsäck"
+    },
+    {
+      "lemma": "sax",
+      "definite": "saxen",
+      "gender": "common",
+      "split": "dev",
+      "family": "sax"
+    },
+    {
+      "lemma": "tidning",
+      "definite": "tidningen",
+      "gender": "common",
+      "split": "dev",
+      "family": "tidning"
+    },
+    {
+      "lemma": "äpple",
+      "definite": "äpplet",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "äpple"
+    },
+    {
+      "lemma": "päron",
+      "definite": "päronet",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "päron"
+    },
+    {
+      "lemma": "ägg",
+      "definite": "ägget",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "ägg"
+    },
+    {
+      "lemma": "ljus",
+      "definite": "ljuset",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "ljus"
+    },
+    {
+      "lemma": "batteri",
+      "definite": "batteriet",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "batteri"
+    },
+    {
+      "lemma": "rep",
+      "definite": "repet",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "rep"
+    },
+    {
+      "lemma": "snöre",
+      "definite": "snöret",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "snöre"
+    },
+    {
+      "lemma": "nät",
+      "definite": "nätet",
+      "gender": "neuter",
+      "split": "dev",
+      "family": "nät"
+    },
+    {
+      "lemma": "flaska",
+      "definite": "flaskan",
+      "gender": "common",
+      "split": "test",
+      "family": "flaska"
+    },
+    {
+      "lemma": "burk",
+      "definite": "burken",
+      "gender": "common",
+      "split": "test",
+      "family": "burk"
+    },
+    {
+      "lemma": "låda",
+      "definite": "lådan",
+      "gender": "common",
+      "split": "test",
+      "family": "låda"
+    },
+    {
+      "lemma": "boll",
+      "definite": "bollen",
+      "gender": "common",
+      "split": "test",
+      "family": "boll"
+    },
+    {
+      "lemma": "docka",
+      "definite": "dockan",
+      "gender": "common",
+      "split": "test",
+      "family": "docka"
+    },
+    {
+      "lemma": "leksak",
+      "definite": "leksaken",
+      "gender": "common",
+      "split": "test",
+      "family": "leksak"
+    },
+    {
+      "lemma": "skål",
+      "definite": "skålen",
+      "gender": "common",
+      "split": "test",
+      "family": "skål"
+    },
+    {
+      "lemma": "bricka",
+      "definite": "brickan",
+      "gender": "common",
+      "split": "test",
+      "family": "bricka"
+    },
+    {
+      "lemma": "kniv",
+      "definite": "kniven",
+      "gender": "common",
+      "split": "test",
+      "family": "kniv"
+    },
+    {
+      "lemma": "visp",
+      "definite": "vispen",
+      "gender": "common",
+      "split": "test",
+      "family": "visp"
+    },
+    {
+      "lemma": "hammare",
+      "definite": "hammaren",
+      "gender": "common",
+      "split": "test",
+      "family": "hammare"
+    },
+    {
+      "lemma": "såg",
+      "definite": "sågen",
+      "gender": "common",
+      "split": "test",
+      "family": "såg"
+    },
+    {
+      "lemma": "spade",
+      "definite": "spaden",
+      "gender": "common",
+      "split": "test",
+      "family": "spade"
+    },
+    {
+      "lemma": "kratta",
+      "definite": "krattan",
+      "gender": "common",
+      "split": "test",
+      "family": "kratta"
+    },
+    {
+      "lemma": "lykta",
+      "definite": "lyktan",
+      "gender": "common",
+      "split": "test",
+      "family": "lykta"
+    },
+    {
+      "lemma": "hink",
+      "definite": "hinken",
+      "gender": "common",
+      "split": "test",
+      "family": "hink"
+    },
+    {
+      "lemma": "ankare",
+      "definite": "ankaret",
+      "gender": "neuter",
+      "split": "test",
+      "family": "ankare"
+    },
+    {
+      "lemma": "hjul",
+      "definite": "hjulet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "hjul"
+    },
+    {
+      "lemma": "däck",
+      "definite": "däcket",
+      "gender": "neuter",
+      "split": "test",
+      "family": "däck"
+    },
+    {
+      "lemma": "gevär",
+      "definite": "geväret",
+      "gender": "neuter",
+      "split": "test",
+      "family": "gevär"
+    },
+    {
+      "lemma": "svärd",
+      "definite": "svärdet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "svärd"
+    },
+    {
+      "lemma": "lakan",
+      "definite": "lakanet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "lakan"
+    },
+    {
+      "lemma": "täcke",
+      "definite": "täcket",
+      "gender": "neuter",
+      "split": "test",
+      "family": "täcke"
+    },
+    {
+      "lemma": "gosedjur",
+      "definite": "gosedjuret",
+      "gender": "neuter",
+      "split": "test",
+      "family": "gosedjur"
+    },
+    {
+      "lemma": "pussel",
+      "definite": "pusslet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "pussel"
+    },
+    {
+      "lemma": "spel",
+      "definite": "spelet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "spel"
+    },
+    {
+      "lemma": "akvarium",
+      "definite": "akvariet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "akvarium"
+    },
+    {
+      "lemma": "terrarium",
+      "definite": "terrariet",
+      "gender": "neuter",
+      "split": "test",
+      "family": "terrarium"
+    },
+    {
+      "lemma": "tråg",
+      "definite": "tråget",
+      "gender": "neuter",
+      "split": "test",
+      "family": "tråg"
+    },
+    {
+      "lemma": "durkslag",
+      "definite": "durkslaget",
+      "gender": "neuter",
+      "split": "test",
+      "family": "durkslag"
+    },
+    {
+      "lemma": "sugrör",
+      "definite": "sugröret",
+      "gender": "neuter",
+      "split": "test",
+      "family": "sugrör"
+    },
+    {
+      "lemma": "suddgummi",
+      "definite": "suddgummit",
+      "gender": "neuter",
+      "split": "test",
+      "family": "suddgummi"
+    }
+  ]
+}

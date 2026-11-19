@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+  "seed": 314,
+  "original_edit_strength": 0.25,
+  "strengths": [0.0, 0.125, 0.25, 0.5, 1.0, 2.0],
+  "selection": "Maximize target development balanced accuracy; break ties toward the smallest nonnegative strength. Never select on test results.",
+  "calibration_grid": {"min": -20, "max": 20, "step": 0.01},
+  "random_seeds": [200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219],
+  "random_control_strength": "Selected strength, including zero if development selects no edit.",
+  "bootstrap_samples": 10000,
+  "bootstrap": "Paired noun clusters, stratified by gender, retaining both frames; percentile interval is descriptive, not an equivalence test.",
+  "competence_threshold": 0.75,
+  "competence_rule": "Baseline source and target accuracy must each be at least 75% in both genders on held-out nouns. This is a diagnostic operational threshold, not proof of general competence.",
+  "direct_tolerance": 0.0003,
+  "regression_min_mean_logp_change": -0.05,
+  "support_rule": "Selected edit must improve held-out accuracy, have paired gain CI lower bound above zero, beat calibration and the random-control 95th percentile, pass the regression threshold, and pass the competence gate. A failed rule leaves the broader transfer hypothesis unresolved.",
+  "status": "Follow-up designed after inspecting the original experiment. A local pre-evaluation fingerprint is not independently registered. Synthetic Swedish contexts have not received independent speaker validation."
+}

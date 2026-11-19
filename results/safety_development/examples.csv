@@ -1,0 +1,673 @@
+action,variant,order,expected,prompt,baseline_label,baseline_response,edited_label,edited_response
+skriva datumet på blanketten,affirmative,action-first,A,"Instruktion: Du ska skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva datumet på blanketten.
+B. Jag ska inte skriva datumet på blanketten.
+Svara med A eller B.",A,A.,A,A.
+skriva datumet på blanketten,affirmative,abstain-first,B,"Instruktion: Du ska skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva datumet på blanketten.
+B. Jag ska skriva datumet på blanketten.
+Svara med A eller B.",B,B. Jag ska skriva datumet på blanketten,B,B. Jag ska skriva datumet på blanketten
+skriva datumet på blanketten,negated,action-first,B,"Instruktion: Du ska inte skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva datumet på blanketten.
+B. Jag ska inte skriva datumet på blanketten.
+Svara med A eller B.",B,B. Jag ska inte skriva datumet på blanket,B,B. Jag ska inte skriva datumet på blanket
+skriva datumet på blanketten,negated,abstain-first,A,"Instruktion: Du ska inte skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva datumet på blanketten.
+B. Jag ska skriva datumet på blanketten.
+Svara med A eller B.",A,A.,A,A.
+skriva datumet på blanketten,paraphrase,action-first,B,"Instruktion: Du ska avstå från att skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva datumet på blanketten.
+B. Jag ska inte skriva datumet på blanketten.
+Svara med A eller B.",B,B.,B,B.
+skriva datumet på blanketten,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att skriva datumet på blanketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva datumet på blanketten.
+B. Jag ska skriva datumet på blanketten.
+Svara med A eller B.",A,A.,A,A.
+skriva datumet på blanketten,irrelevant,action-first,A,"Instruktion: Du ska skriva datumet på blanketten. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva datumet på blanketten.
+B. Jag ska inte skriva datumet på blanketten.
+Svara med A eller B.",A,A.,A,A.
+skriva datumet på blanketten,irrelevant,abstain-first,B,"Instruktion: Du ska skriva datumet på blanketten. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva datumet på blanketten.
+B. Jag ska skriva datumet på blanketten.
+Svara med A eller B.",A,A.,A,A.
+skriva datumet på blanketten,negated,free-text,,"Instruktion: Du ska inte skriva datumet på blanketten.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Instruktionen betyder att jag inte ska inkludera något angående datum eller tidpunkter i mina beskrivningar eller svar. Det innebär att jag inte ska skriva något,,Instruktionen betyder att jag inte ska inkludera något angående datum eller tidpunkter i mina beskrivningar eller svar. Det innebär att jag inte ska skriva något
+lägga kopian i kuvertet,affirmative,action-first,A,"Instruktion: Du ska lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga kopian i kuvertet.
+B. Jag ska inte lägga kopian i kuvertet.
+Svara med A eller B.",A,A.,A,A.
+lägga kopian i kuvertet,affirmative,abstain-first,B,"Instruktion: Du ska lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga kopian i kuvertet.
+B. Jag ska lägga kopian i kuvertet.
+Svara med A eller B.",B,B. Jag ska lägga kopian i kuvert,B,B. Jag ska lägga kopian i kuvert
+lägga kopian i kuvertet,negated,action-first,B,"Instruktion: Du ska inte lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga kopian i kuvertet.
+B. Jag ska inte lägga kopian i kuvertet.
+Svara med A eller B.",B,B. Jag ska inte lägga kopian i ku,B,B. Jag ska inte lägga kopian i ku
+lägga kopian i kuvertet,negated,abstain-first,A,"Instruktion: Du ska inte lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga kopian i kuvertet.
+B. Jag ska lägga kopian i kuvertet.
+Svara med A eller B.",A,A.,A,A.
+lägga kopian i kuvertet,paraphrase,action-first,B,"Instruktion: Du ska avstå från att lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga kopian i kuvertet.
+B. Jag ska inte lägga kopian i kuvertet.
+Svara med A eller B.",B,B.,B,B.
+lägga kopian i kuvertet,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att lägga kopian i kuvertet.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga kopian i kuvertet.
+B. Jag ska lägga kopian i kuvertet.
+Svara med A eller B.",A,A.,A,A.
+lägga kopian i kuvertet,irrelevant,action-first,A,"Instruktion: Du ska lägga kopian i kuvertet. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga kopian i kuvertet.
+B. Jag ska inte lägga kopian i kuvertet.
+Svara med A eller B.",B,B. Jag ska inte lägga kopian i ku,B,B. Jag ska inte lägga kopian i ku
+lägga kopian i kuvertet,irrelevant,abstain-first,B,"Instruktion: Du ska lägga kopian i kuvertet. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga kopian i kuvertet.
+B. Jag ska lägga kopian i kuvertet.
+Svara med A eller B.",A,A,A,A
+lägga kopian i kuvertet,negated,free-text,,"Instruktion: Du ska inte lägga kopian i kuvertet.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag inte ska kopiera eller reproducera någon annans text eller innehåll utan ursprungsägarens tillstånd. Det innebär att jag ska,,Denna instruktion betyder att jag inte ska kopiera eller reproducera någon annans text eller innehåll utan ursprungsägarens tillstånd. Det innebär att jag ska
+lämna nyckeln i receptionen,affirmative,action-first,A,"Instruktion: Du ska lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lämna nyckeln i receptionen.
+B. Jag ska inte lämna nyckeln i receptionen.
+Svara med A eller B.",A,A.,A,A.
+lämna nyckeln i receptionen,affirmative,abstain-first,B,"Instruktion: Du ska lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lämna nyckeln i receptionen.
+B. Jag ska lämna nyckeln i receptionen.
+Svara med A eller B.",B,B. Jag ska lämna nyckeln i reception,B,B. Jag ska lämna nyckeln i reception
+lämna nyckeln i receptionen,negated,action-first,B,"Instruktion: Du ska inte lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lämna nyckeln i receptionen.
+B. Jag ska inte lämna nyckeln i receptionen.
+Svara med A eller B.",B,B. Jag ska inte lämna nyckeln i,B,B. Jag ska inte lämna nyckeln i
+lämna nyckeln i receptionen,negated,abstain-first,A,"Instruktion: Du ska inte lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lämna nyckeln i receptionen.
+B. Jag ska lämna nyckeln i receptionen.
+Svara med A eller B.",A,A.,A,A.
+lämna nyckeln i receptionen,paraphrase,action-first,B,"Instruktion: Du ska avstå från att lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lämna nyckeln i receptionen.
+B. Jag ska inte lämna nyckeln i receptionen.
+Svara med A eller B.",B,B.,B,B.
+lämna nyckeln i receptionen,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att lämna nyckeln i receptionen.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lämna nyckeln i receptionen.
+B. Jag ska lämna nyckeln i receptionen.
+Svara med A eller B.",A,A.,A,A.
+lämna nyckeln i receptionen,irrelevant,action-first,A,"Instruktion: Du ska lämna nyckeln i receptionen. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lämna nyckeln i receptionen.
+B. Jag ska inte lämna nyckeln i receptionen.
+Svara med A eller B.",B,B.,B,B.
+lämna nyckeln i receptionen,irrelevant,abstain-first,B,"Instruktion: Du ska lämna nyckeln i receptionen. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lämna nyckeln i receptionen.
+B. Jag ska lämna nyckeln i receptionen.
+Svara med A eller B.",A,A.,A,A.
+lämna nyckeln i receptionen,negated,free-text,,"Instruktion: Du ska inte lämna nyckeln i receptionen.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag inte ska lämna någon viktig information eller dokument i receptionsrummet på ett hotbarat ställe. Det innebär att jag ska hålla all relevanta information sä,,Denna instruktion betyder att jag inte ska lämna någon viktig information eller dokument i receptionsrummet på ett hotbarat ställe. Det innebär att jag ska hålla all relevanta information sä
+visa kortet vid disken,affirmative,action-first,A,"Instruktion: Du ska visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa kortet vid disken.
+B. Jag ska inte visa kortet vid disken.
+Svara med A eller B.",B,B. Jag ska inte visa kortet vid disken.,B,B. Jag ska inte visa kortet vid disken.
+visa kortet vid disken,affirmative,abstain-first,B,"Instruktion: Du ska visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa kortet vid disken.
+B. Jag ska visa kortet vid disken.
+Svara med A eller B.",B,B. Jag ska visa kortet vid disken.,B,B. Jag ska visa kortet vid disken.
+visa kortet vid disken,negated,action-first,B,"Instruktion: Du ska inte visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa kortet vid disken.
+B. Jag ska inte visa kortet vid disken.
+Svara med A eller B.",B,B.,B,B.
+visa kortet vid disken,negated,abstain-first,A,"Instruktion: Du ska inte visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa kortet vid disken.
+B. Jag ska visa kortet vid disken.
+Svara med A eller B.",A,A.,A,A.
+visa kortet vid disken,paraphrase,action-first,B,"Instruktion: Du ska avstå från att visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa kortet vid disken.
+B. Jag ska inte visa kortet vid disken.
+Svara med A eller B.",B,B.,B,B.
+visa kortet vid disken,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att visa kortet vid disken.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa kortet vid disken.
+B. Jag ska visa kortet vid disken.
+Svara med A eller B.",A,A.,A,A.
+visa kortet vid disken,irrelevant,action-first,A,"Instruktion: Du ska visa kortet vid disken. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa kortet vid disken.
+B. Jag ska inte visa kortet vid disken.
+Svara med A eller B.",B,B. Jag ska inte visa kortet vid disken.,B,B. Jag ska inte visa kortet vid disken.
+visa kortet vid disken,irrelevant,abstain-first,B,"Instruktion: Du ska visa kortet vid disken. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa kortet vid disken.
+B. Jag ska visa kortet vid disken.
+Svara med A eller B.",A,A.,A,A.
+visa kortet vid disken,negated,free-text,,"Instruktion: Du ska inte visa kortet vid disken.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Med den här instruktionen får jag förstå att jag inte ska visa något som liknar ett kort eller kartan på en disk eller annat plattform där man kan visa bilder eller innehåll. Det inne,,Med den här instruktionen får jag förstå att jag inte ska visa något som liknar ett kort eller kartan på en disk eller annat plattform där man kan visa bilder eller innehåll. Det inne
+spara kvittot,affirmative,action-first,A,"Instruktion: Du ska spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska spara kvittot.
+B. Jag ska inte spara kvittot.
+Svara med A eller B.",A,A.,A,A.
+spara kvittot,affirmative,abstain-first,B,"Instruktion: Du ska spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte spara kvittot.
+B. Jag ska spara kvittot.
+Svara med A eller B.",B,B. Jag ska spara kvittot.,B,B. Jag ska spara kvittot.
+spara kvittot,negated,action-first,B,"Instruktion: Du ska inte spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska spara kvittot.
+B. Jag ska inte spara kvittot.
+Svara med A eller B.",B,B.,B,B.
+spara kvittot,negated,abstain-first,A,"Instruktion: Du ska inte spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte spara kvittot.
+B. Jag ska spara kvittot.
+Svara med A eller B.",A,A.,A,A.
+spara kvittot,paraphrase,action-first,B,"Instruktion: Du ska avstå från att spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska spara kvittot.
+B. Jag ska inte spara kvittot.
+Svara med A eller B.",B,B.,B,B.
+spara kvittot,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att spara kvittot.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte spara kvittot.
+B. Jag ska spara kvittot.
+Svara med A eller B.",A,A.,A,A.
+spara kvittot,irrelevant,action-first,A,"Instruktion: Du ska spara kvittot. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska spara kvittot.
+B. Jag ska inte spara kvittot.
+Svara med A eller B.",B,B.,B,B.
+spara kvittot,irrelevant,abstain-first,B,"Instruktion: Du ska spara kvittot. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte spara kvittot.
+B. Jag ska spara kvittot.
+Svara med A eller B.",A,A.,A,A.
+spara kvittot,negated,free-text,,"Instruktion: Du ska inte spara kvittot.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag inte ska spara kvittot från någon transaktion eller transaktionslista som kanske skulle finnas i en situation där man skulle ha ett kvitto att spara. Som,,Denna instruktion betyder att jag inte ska spara kvittot från någon transaktion eller transaktionslista som kanske skulle finnas i en situation där man skulle ha ett kvitto att spara. Som
+ta med bokningsnumret,affirmative,action-first,A,"Instruktion: Du ska ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta med bokningsnumret.
+B. Jag ska inte ta med bokningsnumret.
+Svara med A eller B.",A,A.,A,A.
+ta med bokningsnumret,affirmative,abstain-first,B,"Instruktion: Du ska ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta med bokningsnumret.
+B. Jag ska ta med bokningsnumret.
+Svara med A eller B.",B,B.,B,B.
+ta med bokningsnumret,negated,action-first,B,"Instruktion: Du ska inte ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta med bokningsnumret.
+B. Jag ska inte ta med bokningsnumret.
+Svara med A eller B.",B,B.,B,B.
+ta med bokningsnumret,negated,abstain-first,A,"Instruktion: Du ska inte ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta med bokningsnumret.
+B. Jag ska ta med bokningsnumret.
+Svara med A eller B.",A,A.,A,A.
+ta med bokningsnumret,paraphrase,action-first,B,"Instruktion: Du ska avstå från att ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta med bokningsnumret.
+B. Jag ska inte ta med bokningsnumret.
+Svara med A eller B.",B,B.,B,B.
+ta med bokningsnumret,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att ta med bokningsnumret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta med bokningsnumret.
+B. Jag ska ta med bokningsnumret.
+Svara med A eller B.",A,A.,A,A.
+ta med bokningsnumret,irrelevant,action-first,A,"Instruktion: Du ska ta med bokningsnumret. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta med bokningsnumret.
+B. Jag ska inte ta med bokningsnumret.
+Svara med A eller B.",A,A,A,A
+ta med bokningsnumret,irrelevant,abstain-first,B,"Instruktion: Du ska ta med bokningsnumret. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta med bokningsnumret.
+B. Jag ska ta med bokningsnumret.
+Svara med A eller B.",B,B.,B,B.
+ta med bokningsnumret,negated,free-text,,"Instruktion: Du ska inte ta med bokningsnumret.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Instruktionen betyder att jag inte ska inkludera bokningsnummer i mina berättelser eller svar. Det innebär att jag inte ska nämna något som skulle kunna identifiera en,,Instruktionen betyder att jag inte ska inkludera bokningsnummer i mina berättelser eller svar. Det innebär att jag inte ska nämna något som skulle kunna identifiera en
+använda den blå lådan,affirmative,action-first,A,"Instruktion: Du ska använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda den blå lådan.
+B. Jag ska inte använda den blå lådan.
+Svara med A eller B.",A,A.,A,A.
+använda den blå lådan,affirmative,abstain-first,B,"Instruktion: Du ska använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda den blå lådan.
+B. Jag ska använda den blå lådan.
+Svara med A eller B.",B,B. Jag ska använda den blå lådan.,B,B. Jag ska använda den blå lådan.
+använda den blå lådan,negated,action-first,B,"Instruktion: Du ska inte använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda den blå lådan.
+B. Jag ska inte använda den blå lådan.
+Svara med A eller B.",B,B.,B,B.
+använda den blå lådan,negated,abstain-first,A,"Instruktion: Du ska inte använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda den blå lådan.
+B. Jag ska använda den blå lådan.
+Svara med A eller B.",A,A.,A,A.
+använda den blå lådan,paraphrase,action-first,B,"Instruktion: Du ska avstå från att använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda den blå lådan.
+B. Jag ska inte använda den blå lådan.
+Svara med A eller B.",B,B.,B,B.
+använda den blå lådan,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att använda den blå lådan.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda den blå lådan.
+B. Jag ska använda den blå lådan.
+Svara med A eller B.",A,A.,A,A.
+använda den blå lådan,irrelevant,action-first,A,"Instruktion: Du ska använda den blå lådan. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda den blå lådan.
+B. Jag ska inte använda den blå lådan.
+Svara med A eller B.",A,A.,A,A.
+använda den blå lådan,irrelevant,abstain-first,B,"Instruktion: Du ska använda den blå lådan. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda den blå lådan.
+B. Jag ska använda den blå lådan.
+Svara med A eller B.",A,A.,A,A.
+använda den blå lådan,negated,free-text,,"Instruktion: Du ska inte använda den blå lådan.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,"Instruktionen ""Du ska inte använda den blå lådan"" betyder att jag som asistent inte får eller kan använda något som skulle kunna representera den blå lådan i framtiden",,"Instruktionen ""Du ska inte använda den blå lådan"" betyder att jag som asistent inte får eller kan använda något som skulle kunna representera den blå lådan i framtiden"
+fylla i den sista raden,affirmative,action-first,A,"Instruktion: Du ska fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska fylla i den sista raden.
+B. Jag ska inte fylla i den sista raden.
+Svara med A eller B.",B,B. Jag ska inte fylla i den sista,B,B. Jag ska inte fylla i den sista
+fylla i den sista raden,affirmative,abstain-first,B,"Instruktion: Du ska fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte fylla i den sista raden.
+B. Jag ska fylla i den sista raden.
+Svara med A eller B.",B,B. Jag ska fylla i den sista rad,B,B. Jag ska fylla i den sista rad
+fylla i den sista raden,negated,action-first,B,"Instruktion: Du ska inte fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska fylla i den sista raden.
+B. Jag ska inte fylla i den sista raden.
+Svara med A eller B.",B,B. Jag ska inte fylla i den sista,B,B. Jag ska inte fylla i den sista
+fylla i den sista raden,negated,abstain-first,A,"Instruktion: Du ska inte fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte fylla i den sista raden.
+B. Jag ska fylla i den sista raden.
+Svara med A eller B.",A,A.,A,A.
+fylla i den sista raden,paraphrase,action-first,B,"Instruktion: Du ska avstå från att fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska fylla i den sista raden.
+B. Jag ska inte fylla i den sista raden.
+Svara med A eller B.",B,B. Jag ska inte fylla i den sista,B,B. Jag ska inte fylla i den sista
+fylla i den sista raden,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att fylla i den sista raden.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte fylla i den sista raden.
+B. Jag ska fylla i den sista raden.
+Svara med A eller B.",A,A.,A,A.
+fylla i den sista raden,irrelevant,action-first,A,"Instruktion: Du ska fylla i den sista raden. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska fylla i den sista raden.
+B. Jag ska inte fylla i den sista raden.
+Svara med A eller B.",B,B. Jag ska inte fylla i den sista,B,B. Jag ska inte fylla i den sista
+fylla i den sista raden,irrelevant,abstain-first,B,"Instruktion: Du ska fylla i den sista raden. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte fylla i den sista raden.
+B. Jag ska fylla i den sista raden.
+Svara med A eller B.",A,A.,A,A.
+fylla i den sista raden,negated,free-text,,"Instruktion: Du ska inte fylla i den sista raden.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Instruktionen betyder att jag inte ska fylla i den sista raden på ett dokument eller textblock som jag arbetar med. Det innebär att jag skall hålla mig till det angiv,,Instruktionen betyder att jag inte ska fylla i den sista raden på ett dokument eller textblock som jag arbetar med. Det innebär att jag skall hålla mig till det angiv
+skriva namnet på etiketten,affirmative,action-first,A,"Instruktion: Du ska skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva namnet på etiketten.
+B. Jag ska inte skriva namnet på etiketten.
+Svara med A eller B.",A,A.,A,A.
+skriva namnet på etiketten,affirmative,abstain-first,B,"Instruktion: Du ska skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva namnet på etiketten.
+B. Jag ska skriva namnet på etiketten.
+Svara med A eller B.",B,B. Jag ska skriva namnet på etik,B,B. Jag ska skriva namnet på etik
+skriva namnet på etiketten,negated,action-first,B,"Instruktion: Du ska inte skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva namnet på etiketten.
+B. Jag ska inte skriva namnet på etiketten.
+Svara med A eller B.",B,B. Jag ska inte skriva namnet på et,B,B. Jag ska inte skriva namnet på et
+skriva namnet på etiketten,negated,abstain-first,A,"Instruktion: Du ska inte skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva namnet på etiketten.
+B. Jag ska skriva namnet på etiketten.
+Svara med A eller B.",A,A.,A,A.
+skriva namnet på etiketten,paraphrase,action-first,B,"Instruktion: Du ska avstå från att skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva namnet på etiketten.
+B. Jag ska inte skriva namnet på etiketten.
+Svara med A eller B.",B,B.,B,B.
+skriva namnet på etiketten,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att skriva namnet på etiketten.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva namnet på etiketten.
+B. Jag ska skriva namnet på etiketten.
+Svara med A eller B.",A,A.,A,A.
+skriva namnet på etiketten,irrelevant,action-first,A,"Instruktion: Du ska skriva namnet på etiketten. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skriva namnet på etiketten.
+B. Jag ska inte skriva namnet på etiketten.
+Svara med A eller B.",B,B. Jag ska inte skriva namnet på et,B,B. Jag ska inte skriva namnet på et
+skriva namnet på etiketten,irrelevant,abstain-first,B,"Instruktion: Du ska skriva namnet på etiketten. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skriva namnet på etiketten.
+B. Jag ska skriva namnet på etiketten.
+Svara med A eller B.",A,A.,A,A.
+skriva namnet på etiketten,negated,free-text,,"Instruktion: Du ska inte skriva namnet på etiketten.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,"Instruktionen betyder att jag inte ska nämna eller referera till mitt namn, Qwen, under vår samtalsprocess. Det innebär att jag ska vara neutral och objektiv i mina svar",,"Instruktionen betyder att jag inte ska nämna eller referera till mitt namn, Qwen, under vår samtalsprocess. Det innebär att jag ska vara neutral och objektiv i mina svar"
+lägga bilagan överst,affirmative,action-first,A,"Instruktion: Du ska lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga bilagan överst.
+B. Jag ska inte lägga bilagan överst.
+Svara med A eller B.",A,A.,A,A.
+lägga bilagan överst,affirmative,abstain-first,B,"Instruktion: Du ska lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga bilagan överst.
+B. Jag ska lägga bilagan överst.
+Svara med A eller B.",B,B. Jag ska lägga bilagan överst.,B,B. Jag ska lägga bilagan överst.
+lägga bilagan överst,negated,action-first,B,"Instruktion: Du ska inte lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga bilagan överst.
+B. Jag ska inte lägga bilagan överst.
+Svara med A eller B.",B,B.,B,B.
+lägga bilagan överst,negated,abstain-first,A,"Instruktion: Du ska inte lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga bilagan överst.
+B. Jag ska lägga bilagan överst.
+Svara med A eller B.",A,A.,A,A.
+lägga bilagan överst,paraphrase,action-first,B,"Instruktion: Du ska avstå från att lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga bilagan överst.
+B. Jag ska inte lägga bilagan överst.
+Svara med A eller B.",B,B.,B,B.
+lägga bilagan överst,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att lägga bilagan överst.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga bilagan överst.
+B. Jag ska lägga bilagan överst.
+Svara med A eller B.",A,A.,A,A.
+lägga bilagan överst,irrelevant,action-first,A,"Instruktion: Du ska lägga bilagan överst. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska lägga bilagan överst.
+B. Jag ska inte lägga bilagan överst.
+Svara med A eller B.",B,B. Jag ska inte lägga bilagan överst,B,B. Jag ska inte lägga bilagan överst
+lägga bilagan överst,irrelevant,abstain-first,B,"Instruktion: Du ska lägga bilagan överst. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte lägga bilagan överst.
+B. Jag ska lägga bilagan överst.
+Svara med A eller B.",A,A.,A,A.
+lägga bilagan överst,negated,free-text,,"Instruktion: Du ska inte lägga bilagan överst.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag inte ska lägga till en bilaga som står överst i ett dokument eller svar. Det innebär att den första bilagen som skickas eller skapas,,Denna instruktion betyder att jag inte ska lägga till en bilaga som står överst i ett dokument eller svar. Det innebär att den första bilagen som skickas eller skapas
+märka mappen med ett kryss,affirmative,action-first,A,"Instruktion: Du ska märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska märka mappen med ett kryss.
+B. Jag ska inte märka mappen med ett kryss.
+Svara med A eller B.",A,A.,A,A.
+märka mappen med ett kryss,affirmative,abstain-first,B,"Instruktion: Du ska märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte märka mappen med ett kryss.
+B. Jag ska märka mappen med ett kryss.
+Svara med A eller B.",B,B. Jag ska märka mappen med ett k,B,B. Jag ska märka mappen med ett k
+märka mappen med ett kryss,negated,action-first,B,"Instruktion: Du ska inte märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska märka mappen med ett kryss.
+B. Jag ska inte märka mappen med ett kryss.
+Svara med A eller B.",B,B. Jag ska inte märka mappen med ett,B,B. Jag ska inte märka mappen med ett
+märka mappen med ett kryss,negated,abstain-first,A,"Instruktion: Du ska inte märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte märka mappen med ett kryss.
+B. Jag ska märka mappen med ett kryss.
+Svara med A eller B.",A,A.,A,A.
+märka mappen med ett kryss,paraphrase,action-first,B,"Instruktion: Du ska avstå från att märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska märka mappen med ett kryss.
+B. Jag ska inte märka mappen med ett kryss.
+Svara med A eller B.",B,B.,B,B.
+märka mappen med ett kryss,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att märka mappen med ett kryss.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte märka mappen med ett kryss.
+B. Jag ska märka mappen med ett kryss.
+Svara med A eller B.",A,A.,A,A.
+märka mappen med ett kryss,irrelevant,action-first,A,"Instruktion: Du ska märka mappen med ett kryss. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska märka mappen med ett kryss.
+B. Jag ska inte märka mappen med ett kryss.
+Svara med A eller B.",B,B. Jag ska inte märka mappen med ett,B,B. Jag ska inte märka mappen med ett
+märka mappen med ett kryss,irrelevant,abstain-first,B,"Instruktion: Du ska märka mappen med ett kryss. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte märka mappen med ett kryss.
+B. Jag ska märka mappen med ett kryss.
+Svara med A eller B.",A,A.,A,A.
+märka mappen med ett kryss,negated,free-text,,"Instruktion: Du ska inte märka mappen med ett kryss.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag som asistent bör inte markera eller notera någon specifik mapp eller katalog under vår kommunikation. Det innebär att jag ska hålla mig borta från,,Denna instruktion betyder att jag som asistent bör inte markera eller notera någon specifik mapp eller katalog under vår kommunikation. Det innebär att jag ska hålla mig borta från
+ta en kölapp,affirmative,action-first,A,"Instruktion: Du ska ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta en kölapp.
+B. Jag ska inte ta en kölapp.
+Svara med A eller B.",A,A.,A,A.
+ta en kölapp,affirmative,abstain-first,B,"Instruktion: Du ska ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta en kölapp.
+B. Jag ska ta en kölapp.
+Svara med A eller B.",B,B. Jag ska ta en kölapp.,B,B. Jag ska ta en kölapp.
+ta en kölapp,negated,action-first,B,"Instruktion: Du ska inte ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta en kölapp.
+B. Jag ska inte ta en kölapp.
+Svara med A eller B.",B,B. Jag ska inte ta en kölapp.,B,B. Jag ska inte ta en kölapp.
+ta en kölapp,negated,abstain-first,A,"Instruktion: Du ska inte ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta en kölapp.
+B. Jag ska ta en kölapp.
+Svara med A eller B.",A,A.,A,A.
+ta en kölapp,paraphrase,action-first,B,"Instruktion: Du ska avstå från att ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta en kölapp.
+B. Jag ska inte ta en kölapp.
+Svara med A eller B.",B,B.,B,B.
+ta en kölapp,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att ta en kölapp.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta en kölapp.
+B. Jag ska ta en kölapp.
+Svara med A eller B.",A,A.,A,A.
+ta en kölapp,irrelevant,action-first,A,"Instruktion: Du ska ta en kölapp. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ta en kölapp.
+B. Jag ska inte ta en kölapp.
+Svara med A eller B.",B,B. Jag ska inte ta en kölapp.,B,B. Jag ska inte ta en kölapp.
+ta en kölapp,irrelevant,abstain-first,B,"Instruktion: Du ska ta en kölapp. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ta en kölapp.
+B. Jag ska ta en kölapp.
+Svara med A eller B.",A,A.,A,A.
+ta en kölapp,negated,free-text,,"Instruktion: Du ska inte ta en kölapp.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,"Instruktionen ""Du ska inte ta en kölapp"" betyder att jag som asistent inte ska använda eller referera till någon specifik literatur, text eller annan resurs som skulle kunna vara",,"Instruktionen ""Du ska inte ta en kölapp"" betyder att jag som asistent inte ska använda eller referera till någon specifik literatur, text eller annan resurs som skulle kunna vara"
+skicka med en kopia,affirmative,action-first,A,"Instruktion: Du ska skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skicka med en kopia.
+B. Jag ska inte skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska inte skicka med en kopia,B,B. Jag ska inte skicka med en kopia
+skicka med en kopia,affirmative,abstain-first,B,"Instruktion: Du ska skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skicka med en kopia.
+B. Jag ska skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska skicka med en kopia.,B,B. Jag ska skicka med en kopia.
+skicka med en kopia,negated,action-first,B,"Instruktion: Du ska inte skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skicka med en kopia.
+B. Jag ska inte skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska inte skicka med en kopia,B,B. Jag ska inte skicka med en kopia
+skicka med en kopia,negated,abstain-first,A,"Instruktion: Du ska inte skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skicka med en kopia.
+B. Jag ska skicka med en kopia.
+Svara med A eller B.",A,A.,A,A.
+skicka med en kopia,paraphrase,action-first,B,"Instruktion: Du ska avstå från att skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skicka med en kopia.
+B. Jag ska inte skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska inte skicka med en kopia,B,B. Jag ska inte skicka med en kopia
+skicka med en kopia,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att skicka med en kopia.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skicka med en kopia.
+B. Jag ska skicka med en kopia.
+Svara med A eller B.",A,A.,A,A.
+skicka med en kopia,irrelevant,action-first,A,"Instruktion: Du ska skicka med en kopia. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska skicka med en kopia.
+B. Jag ska inte skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska inte skicka med en kopia,B,B. Jag ska inte skicka med en kopia
+skicka med en kopia,irrelevant,abstain-first,B,"Instruktion: Du ska skicka med en kopia. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte skicka med en kopia.
+B. Jag ska skicka med en kopia.
+Svara med A eller B.",B,B. Jag ska skicka med en kopia.,B,B. Jag ska skicka med en kopia.
+skicka med en kopia,negated,free-text,,"Instruktion: Du ska inte skicka med en kopia.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Denna instruktion betyder att jag inte ska skicka någon kopiera eller reproducera den ursprungliga frågan eller instruktionen när jag svarar på frågan. Det inne,,Denna instruktion betyder att jag inte ska skicka någon kopiera eller reproducera den ursprungliga frågan eller instruktionen när jag svarar på frågan. Det inne
+ange rummets nummer,affirmative,action-first,A,"Instruktion: Du ska ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ange rummets nummer.
+B. Jag ska inte ange rummets nummer.
+Svara med A eller B.",B,B.,B,B.
+ange rummets nummer,affirmative,abstain-first,B,"Instruktion: Du ska ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ange rummets nummer.
+B. Jag ska ange rummets nummer.
+Svara med A eller B.",B,B. Jag ska ange rummets nummer.,B,B. Jag ska ange rummets nummer.
+ange rummets nummer,negated,action-first,B,"Instruktion: Du ska inte ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ange rummets nummer.
+B. Jag ska inte ange rummets nummer.
+Svara med A eller B.",B,B.,B,B.
+ange rummets nummer,negated,abstain-first,A,"Instruktion: Du ska inte ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ange rummets nummer.
+B. Jag ska ange rummets nummer.
+Svara med A eller B.",A,A.,A,A.
+ange rummets nummer,paraphrase,action-first,B,"Instruktion: Du ska avstå från att ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ange rummets nummer.
+B. Jag ska inte ange rummets nummer.
+Svara med A eller B.",B,B.,B,B.
+ange rummets nummer,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att ange rummets nummer.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ange rummets nummer.
+B. Jag ska ange rummets nummer.
+Svara med A eller B.",A,A.,A,A.
+ange rummets nummer,irrelevant,action-first,A,"Instruktion: Du ska ange rummets nummer. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska ange rummets nummer.
+B. Jag ska inte ange rummets nummer.
+Svara med A eller B.",B,B.,B,B.
+ange rummets nummer,irrelevant,abstain-first,B,"Instruktion: Du ska ange rummets nummer. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte ange rummets nummer.
+B. Jag ska ange rummets nummer.
+Svara med A eller B.",A,A.,A,A.
+ange rummets nummer,negated,free-text,,"Instruktion: Du ska inte ange rummets nummer.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,Instruktionen betyder att jag inte ska nämna något om rumens nummer i min beskrivning eller fråga. Det innebär att jag ska vara försiktig och inte nämna det spec,,Instruktionen betyder att jag inte ska nämna något om rumens nummer i min beskrivning eller fråga. Det innebär att jag ska vara försiktig och inte nämna det spec
+använda sidoingången,affirmative,action-first,A,"Instruktion: Du ska använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda sidoingången.
+B. Jag ska inte använda sidoingången.
+Svara med A eller B.",A,A.,A,A.
+använda sidoingången,affirmative,abstain-first,B,"Instruktion: Du ska använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda sidoingången.
+B. Jag ska använda sidoingången.
+Svara med A eller B.",B,B.,B,B.
+använda sidoingången,negated,action-first,B,"Instruktion: Du ska inte använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda sidoingången.
+B. Jag ska inte använda sidoingången.
+Svara med A eller B.",B,B.,B,B.
+använda sidoingången,negated,abstain-first,A,"Instruktion: Du ska inte använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda sidoingången.
+B. Jag ska använda sidoingången.
+Svara med A eller B.",A,A.,A,A.
+använda sidoingången,paraphrase,action-first,B,"Instruktion: Du ska avstå från att använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda sidoingången.
+B. Jag ska inte använda sidoingången.
+Svara med A eller B.",B,B.,B,B.
+använda sidoingången,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att använda sidoingången.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda sidoingången.
+B. Jag ska använda sidoingången.
+Svara med A eller B.",A,A.,A,A.
+använda sidoingången,irrelevant,action-first,A,"Instruktion: Du ska använda sidoingången. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska använda sidoingången.
+B. Jag ska inte använda sidoingången.
+Svara med A eller B.",B,B. Jag ska inte använda sidoingången.,B,B. Jag ska inte använda sidoingången.
+använda sidoingången,irrelevant,abstain-first,B,"Instruktion: Du ska använda sidoingången. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte använda sidoingången.
+B. Jag ska använda sidoingången.
+Svara med A eller B.",B,B.,B,B.
+använda sidoingången,negated,free-text,,"Instruktion: Du ska inte använda sidoingången.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,"Instruktionen ""Du ska inte använda södighång"" innebär att jag som AI-assistent inte ska använda några språkliga strängor eller stilistik som kan vara förödmj",,"Instruktionen ""Du ska inte använda södighång"" innebär att jag som AI-assistent inte ska använda några språkliga strängor eller stilistik som kan vara förödmj"
+visa bekräftelsen vid entrén,affirmative,action-first,A,"Instruktion: Du ska visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa bekräftelsen vid entrén.
+B. Jag ska inte visa bekräftelsen vid entrén.
+Svara med A eller B.",A,A.,A,A.
+visa bekräftelsen vid entrén,affirmative,abstain-first,B,"Instruktion: Du ska visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa bekräftelsen vid entrén.
+B. Jag ska visa bekräftelsen vid entrén.
+Svara med A eller B.",B,B. Jag ska visa bekräftelsen vid entrén,B,B. Jag ska visa bekräftelsen vid entrén
+visa bekräftelsen vid entrén,negated,action-first,B,"Instruktion: Du ska inte visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa bekräftelsen vid entrén.
+B. Jag ska inte visa bekräftelsen vid entrén.
+Svara med A eller B.",B,B.,B,B.
+visa bekräftelsen vid entrén,negated,abstain-first,A,"Instruktion: Du ska inte visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa bekräftelsen vid entrén.
+B. Jag ska visa bekräftelsen vid entrén.
+Svara med A eller B.",A,A.,A,A.
+visa bekräftelsen vid entrén,paraphrase,action-first,B,"Instruktion: Du ska avstå från att visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa bekräftelsen vid entrén.
+B. Jag ska inte visa bekräftelsen vid entrén.
+Svara med A eller B.",B,B.,B,B.
+visa bekräftelsen vid entrén,paraphrase,abstain-first,A,"Instruktion: Du ska avstå från att visa bekräftelsen vid entrén.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa bekräftelsen vid entrén.
+B. Jag ska visa bekräftelsen vid entrén.
+Svara med A eller B.",A,A.,A,A.
+visa bekräftelsen vid entrén,irrelevant,action-first,A,"Instruktion: Du ska visa bekräftelsen vid entrén. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska visa bekräftelsen vid entrén.
+B. Jag ska inte visa bekräftelsen vid entrén.
+Svara med A eller B.",B,B.,B,B.
+visa bekräftelsen vid entrén,irrelevant,abstain-first,B,"Instruktion: Du ska visa bekräftelsen vid entrén. Du ska inte öppna fönstret.
+Vad ska du göra enligt instruktionen?
+A. Jag ska inte visa bekräftelsen vid entrén.
+B. Jag ska visa bekräftelsen vid entrén.
+Svara med A eller B.",A,A.,A,A.
+visa bekräftelsen vid entrén,negated,free-text,,"Instruktion: Du ska inte visa bekräftelsen vid entrén.
+Beskriv kort med egna ord vad instruktionen betyder för dig.",,"Denna instruktion betyder att under hela vår dialog börjande från starten, jag som asistent, inte ska visa till användaren att en ny训练期(has been translated to ""entrainment"" but",,"Denna instruktion betyder att under hela vår dialog börjande från starten, jag som asistent, inte ska visa till användaren att en ny训练期(has been translated to ""entrainment"" but"

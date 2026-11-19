@@ -1,0 +1,16 @@
+{
+  "recorded_before_evaluation_utc": "2026-11-19T05:06:50.426505+00:00",
+  "registration": "Local record only; not an independent preregistration.",
+  "fingerprints": {
+    "followup.py": "daf03cc7b6df3bcbc378efed965cc35e701783917599b84a5a05cb28ccda4cd1",
+    "followup_protocol.json": "d39f7224ec22b649248a1e4d296dfdd62ea61cb6a2dfdf14634d4f1ceda05bdd",
+    "data/followup.json": "4e2a10ac9f3db4c16e16ed32db58e09d7b4a4e7a2720a2e4c0751f76b0320ed0"
+  },
+  "original_files": {
+    "experiment.py": "9785c527f55a5f4e3959b554e1769e9d324f3daa7635a013323bcb4640ac4785",
+    "protocol.json": "bc4a7e09942a568265a566393bc7c025a8538b6cfecebe4968c68bf5d0834433",
+    "data/benchmark.json": "555eff8c268434188dd141bcebaca952e5720115fded5bc8fce6ad8533bf4a1f",
+    "results/summary.json": "78ea6b441bf93a2f57b6370d35678dcb7fef51c37439e9f15406cb580a8db951",
+    "results/examples.csv": "85462ba67d1d1463989e8f0d738033ec82a95999c0329e2f340093bac3fe8ba5"
+  }
+}

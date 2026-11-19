@@ -1,0 +1,32 @@
+{
+  "selected_strength": 0.0,
+  "development_candidates": [
+    {
+      "strength": 0.0,
+      "accuracy": 0.5
+    },
+    {
+      "strength": 0.125,
+      "accuracy": 0.5
+    },
+    {
+      "strength": 0.25,
+      "accuracy": 0.5
+    },
+    {
+      "strength": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "strength": 1.0,
+      "accuracy": 0.5
+    },
+    {
+      "strength": 2.0,
+      "accuracy": 0.5
+    }
+  ],
+  "calibration_bias": -2.809999999997313,
+  "calibration_development_accuracy": 0.5625,
+  "calibration_at_grid_boundary": false
+}
