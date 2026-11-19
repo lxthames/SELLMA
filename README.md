@@ -34,9 +34,11 @@ comparisons, and 3B strength sweep reused the same 32 follow-up test nouns.
 Treat those results and their intervals as exploratory. The regression
 measure tracks changes in expected-token log probability on 20 separate prefixes.
 
-The next step is to evaluate possessive agreement on fresh, speaker-reviewed
-nouns. Keep plain and chat-formatted few-shot prompts as baselines. Revisit
-weight edits once a checkpoint passes both competence gates.
+We recommend giving this particular weight edit low priority for Swedish model
+development. It changed no choices in the original test, and a simple bias
+adjustment matched or beat every development-selected edit. The wider research
+question remains open. With more time, we would test the unedited model on
+whole possessive phrases to see how much the sentence format explains.
 
 ## Reproduce the experiments
 
@@ -101,5 +103,4 @@ found identical responses before and after editing.
 ## License
 
 Code is available under the [MIT license](LICENSE). Both synthetic benchmarks
-are available under [CC0 1.0](data/LICENSE). Qwen distributes its Qwen2.5
-model weights under Apache-2.0.
+are available under [CC0 1.0](data/LICENSE). The 0.5B Base, 1.5B Base, and 1.5B Instruct weights used here are distributed under Apache-2.0. The pinned 3B Instruct weights use the [Qwen Research License](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/blob/aa8e72537993ba99e69dfaafa59ed015b17504d1/LICENSE).
